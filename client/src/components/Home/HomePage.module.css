@@ -1,0 +1,17 @@
+.home {
+    width: 100vw;
+}
+
+.cont1 {
+    width: 100vw;
+    height: 100vh;
+    box-sizing: border-box;
+    background-color: #f1ead6;
+}
+
+.cont2 {
+    width: 100vw;
+    height: 100vh;
+    box-sizing: border-box;
+    background-color: #e7a56f;
+}
