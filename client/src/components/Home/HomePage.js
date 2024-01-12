@@ -9,6 +9,8 @@ const HomePage = () => {
             </div>
             <div className={style.cont2}>
             </div>
+            <div className={style.cont3}>
+            </div>
         </div>
     );
 };
