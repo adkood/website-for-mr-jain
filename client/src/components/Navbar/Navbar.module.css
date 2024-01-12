@@ -1,8 +1,94 @@
 .nav {
+    margin: 0;
     width: 100vw;
     height: 10%;
     box-sizing: border-box;
     position: fixed;
     top: 0;
-    background-color: #f1e7cc;
+    background-color: #f0e0b4;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family:'Courier New', Courier, monospace
+}
+
+.nav__left {
+    width: 30%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav__right {
+    width: 35%;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.nav__option {
+    border-radius: 5px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: bold;
+    font-size: 150%;
+}
+
+.nav__option:hover {
+    color: #4F2F1C;
+    text-decoration: underline;
+}
+
+.nav__option > *{
+    margin: 15px;
+}
+
+
+@media (max-width: 1100px) {
+
+    .nav {
+        height: auto;
+    }
+
+    .nav__right {
+        text-align: center;
+        margin-bottom: 10px;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .nav__option {
+        border-radius: 5px;
+        width: 50%;
+        height: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        font-weight: bolder;
+        font-size: 120%;
+    }
+}
+
+@media (max-height: 300px) {
+    .nav {
+        height: 35%;
+    }
+}
+
+@media (max-height: 200px) {
+    .nav {
+        height: 50%;
+    }
+}
+
+@media (max-height: 100px) {
+    .nav {
+        height: 100%;
+    }
 }
