@@ -90,7 +90,20 @@ body {
         align-items: center;
         color: 4F2F1C;
         font-weight: bolder;
-        font-size: 120%;
+        font-size: 110%;
+    }
+}
+
+@media (max-width: 1350px) {
+    .nav__option {
+        border-radius: 5px;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: 4F2F1C;
+        font-weight: bold;
+        font-size: 90%;
     }
 }
 

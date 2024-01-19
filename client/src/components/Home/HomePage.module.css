@@ -41,7 +41,7 @@ body {
 @media (max-width: 1150px){
     .star {
         position: relative;
-        top: 30%;
+        top: 40%;
         left: 50%;
         margin-bottom: 10%;
         transform: translate(-50%, -50%);
@@ -59,7 +59,7 @@ body {
 @media (max-width: 500px){
     .star {
         position: relative;
-        top: 34%;
+        top: 38%;
         left: 50%;
         margin-bottom: 10%;
         transform: translate(-50%, -50%);
@@ -77,9 +77,8 @@ body {
 @media (max-height: 800px){
     .star {
         position: relative;
-        top: 42%;
+        top: 36%;
         left: 48%;
-        margin-bottom: 20%;
         transform: translate(-50%, -50%);
     }
 
@@ -97,7 +96,6 @@ body {
         position: relative;
         top: 50%;
         left: 48%;
-        margin-bottom: 20%;
         transform: translate(-50%, -50%);
     }
 
