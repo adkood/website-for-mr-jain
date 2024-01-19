@@ -1,26 +1,106 @@
 .home {
     margin: 0;
     width: 100vw;
-    height: 300vh;
+    height: 100vh;
+    font-family: 'Julius Sans One', sans-serif;
 }
 
-.cont1 {
+.cont {
     width: 100vw;
     height: 100vh;
     box-sizing: border-box;
-    background-color: #955935;
+    background: url('../../../public/home.gif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    z-index: 1;
 }
 
-.cont2 {
-    width: 100vw;
-    height: 100vh;
-    box-sizing: border-box;
-    background-color: #4F2F1C;
+.star {
+    position: relative;
+    top: 18%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
-.cont3 {
-    width: 100vw;
-    height: 100vh;
-    box-sizing: border-box;
-    background-color: #EBE7DC;
+.content {
+    width: 60%;
+    position: relative;
+    font-size: 250%;
+    text-align: center;
+    color: whitesmoke;
+}
+
+@media (max-width: 1150px){
+    .star {
+        position: relative;
+        top: 28%;
+        left: 50%;
+        margin-bottom: 10%;
+        transform: translate(-50%, -50%);
+    }
+
+    .content {
+        position: relative;
+        width: 60%;
+        font-size: 200%;
+        text-align: center;
+        color: whitesmoke;
+    }
+}
+
+@media (max-width: 500px){
+    .star {
+        position: relative;
+        top: 28%;
+        left: 48%;
+        margin-bottom: 10%;
+        transform: translate(-50%, -50%);
+    }
+
+    .content {
+        position: relative;
+        width: 60%;
+        font-size: 170%;
+        text-align: center;
+        color: whitesmoke;
+    }
+}
+
+@media (max-height: 800px){
+    .star {
+        position: relative;
+        top: 38%;
+        left: 48%;
+        margin-bottom: 20%;
+        transform: translate(-50%, -50%);
+    }
+
+    .content {
+        position: relative;
+        width: 60%;
+        font-size: 140%;
+        text-align: center;
+        color: whitesmoke;
+    }
+}
+
+@media (max-height: 600px){
+    .star {
+        position: relative;
+        top: 50%;
+        left: 48%;
+        margin-bottom: 20%;
+        transform: translate(-50%, -50%);
+    }
+
+    .content {
+        position: relative;
+        width: 60%;
+        font-size: 140%;
+        text-align: center;
+        color: whitesmoke;
+    }
 }
