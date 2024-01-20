@@ -4,7 +4,7 @@ import { IoMdStar } from "react-icons/io";
 
 const HomePage = () => {
     return (
-        <div className={style.home}>
+        <div name="home" className={style.home}>
             <IoMdStar className={style.star} size="2rem" color="white" />
             <div className={style.cont}>
                 <span className={style.content}>

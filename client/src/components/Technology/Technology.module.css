@@ -1,0 +1,10 @@
+body {
+    margin: 0;
+}
+
+.techno {
+    width: 100vw;
+    height: 100vh;
+    background: url('../../../public/technology.gif');
+    background-size: cover;
+}

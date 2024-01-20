@@ -1,10 +1,9 @@
 body {
     margin: 0;
-    overflow: hidden;
+    overflow-x: hidden;
 }
 
 .nav {
-    margin: 0;
     width: 100vw;
     height: 10%;
     box-sizing: border-box;
@@ -31,8 +30,8 @@ body {
 }
 
 .nav__right {
-    width: 45%;
     height: 100%;
+    width: 45%;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -75,8 +74,9 @@ body {
     }
 
     .nav__right {
+        height: 100%;  
+        width: 50%;      
         text-align: center;
-        margin-bottom: 10px;
         flex-direction: column;
         gap: 10px;
     }
