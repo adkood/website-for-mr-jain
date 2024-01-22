@@ -5,7 +5,7 @@ body {
 .techno {
     width: 100vw;
     height: 100vh;
-    background: url('../../../public/technology.gif');
+    background: url('../../../public/techBackground.gif');
     background-size: cover;
     display: flex;
     justify-content: space-evenly;

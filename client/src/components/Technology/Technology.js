@@ -8,7 +8,7 @@ const Technology = () => {
             <span>COPPER PRODUCTION Tecnology</span>
         </div>
         <div className={styles.sliderCont}>
-            <Frame width="70%" height="70%" image={"casting.jpg"} name={"Casting"}/>
+            <Frame width="70%" height="70%" image={"casting.jpg"} name={"Casting"} />
         </div>
     </div>
 }
