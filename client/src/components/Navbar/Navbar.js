@@ -5,9 +5,9 @@ const Navbar = () => {
 
     const scrollTo = () => {
         const doc = document.getElementById('prod');
-        doc.scrollTo({
-            
-        })
+        doc.scrollIntoView({
+            behavior: 'smooth',
+        });
     }
 
     return (
