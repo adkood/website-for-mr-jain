@@ -1,0 +1,1 @@
+export const tech_list = [{id: '1', image: 'casting.jpg', name: "Casting"}, {id: '2' , image: 'copperWire.png', name: "wire"}];
