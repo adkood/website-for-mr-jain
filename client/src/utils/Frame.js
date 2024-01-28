@@ -20,10 +20,9 @@ const Frame = ({ width = '200px', height = '200px', name, image }) => {
                 style={{
                     height: '100%',
                     width: '100%',
-                    border: '1px solid',
-                    // background: image ? `url(${image})` : `url("../../public/technology/${image}")`,
                     background: `url(${image})`,
-                    backgroundSize: 'cover',
+                    backgroundSize: "cover",
+                    backgroundRepeat: "no-repeat",
                 }}
             ></div>
             <span
