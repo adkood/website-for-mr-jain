@@ -1,11 +1,11 @@
 import React from 'react';
 
-const Frame = ({ width = '200px', height = '200px', name, image }) => {
+const Frame = ({ name, image }) => {
     return (
         <div
             style={{
-                width: width,
-                height: height,
+                width: '100%',
+                height: '100%',
                 display: 'flex',
                 justifyContent: 'space-evenly',
                 alignItems: 'center',
@@ -14,22 +14,30 @@ const Frame = ({ width = '200px', height = '200px', name, image }) => {
                 padding: '5px',
                 borderRadius: '8px',
                 boxShadow: '1px 2px 5px #4F2F1C',
+                overflow: 'hidden', // Ensure the image doesn't overflow
             }}
         >
             <div
                 style={{
-                    height: '100%',
+                    height: '90%',
                     width: '100%',
-                    background: `url(${image})`,
-                    backgroundSize: "cover",
-                    backgroundRepeat: "no-repeat",
                 }}
-            ></div>
+            >
+                <img
+                    style={{ width: '100%', height: '100%'}}
+                    src={`${image}`}
+                    alt={name} // Set a meaningful alt text
+                />
+            </div>
             <span
                 style={{
-                    margin: '10px',
+                    height: "10%",
                     color: '#955935',
                     fontWeight: 'bold',
+                    // border: "1px solid",
+                    display: "flex",
+                    alignItems: "center",
+                    // textAlign: "center",
                     fontFamily: `'Julius Sans One', sans-serif`,
                 }}
             >

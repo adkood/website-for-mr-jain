@@ -29,7 +29,6 @@ const Technology = () => {
                         <div style={{ width: "15px", height: "15px", borderRadius: "50%", backgroundColor: `${tech_list[currIdx].id === '2' ? "green" : "white"}` }}></div>
                         <div style={{ width: "15px", height: "15px", borderRadius: "50%", backgroundColor: `${tech_list[currIdx].id === '3' ? "green" : "white"}` }}></div>
                         <div style={{ width: "15px", height: "15px", borderRadius: "50%", backgroundColor: `${tech_list[currIdx].id === '4' ? "green" : "white"}` }}></div>
-                        <div style={{ width: "15px", height: "15px", borderRadius: "50%", backgroundColor: `${tech_list[currIdx].id === '5' ? "green" : "white"}` }}></div>
                     </section>
                 </section>
                 <section className={styles.sliderCont__right}>

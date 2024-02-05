@@ -18,7 +18,7 @@ const Application = () => {
                 <section className={styles.sliderCont__inside}>
                     <section className={styles.sliderCont__inside__frameWala}>
                         <section style={{ width: "100%", height: "75%" }}>
-                            <Frame width="100%" height="100%" image={tech_list[0].image} name={tech_list[0].name} />
+                            <Frame width="100%" height="100%" image={"https://i.ibb.co/89ym8sG/casting.jpg"} name={tech_list[0].name} />
                         </section>
                         <section style={{ width: "100%", height: "15%" }}>
                             <span>whats swbs i siwbs swinswi sinwisn isbnwisb insibws iiwsnws isniwsb siwsiws ins inins siws</span>
