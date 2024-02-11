@@ -24,7 +24,7 @@ body {
     letter-spacing: 5px;
 }
 
-.header > * {
+.header>* {
     margin: 10px;
 }
 
@@ -36,8 +36,27 @@ body {
     justify-content: space-evenly;
 }
 
-.footer {
+.middle__inside {
+    height: 100%;
+    width: 22%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column
+}
+
+.middle__inside__image {
+    height: 70%;
     width: 100%;
+}
+
+.middle__inside__brief {
+    height: 20%;
+    width: 100%;
+}
+
+.footer {
+    width: 90%;
     height: 15%;
     font-family: 'Julius Sans One', sans-serif;
     color: #F0E0B4;
@@ -45,6 +64,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
 }
 
 .product__brief {
@@ -54,4 +74,104 @@ body {
     display: flex;
     text-align: center;
     letter-spacing: 5px;
+}
+
+@media (max-width: 1150px) {
+    .header {
+        height: 10%;
+        font-size: 180%;
+    }
+
+    .footer {
+        height: 10%;
+        margin-bottom: 3%;
+        font-size: 130%;
+    }
+
+    .middle {
+        height: auto;
+    }
+
+    .product__brief {
+        font-size: 90%;
+    }
+}
+
+@media (max-width: 850px) {
+    .header {
+        height: 10%;
+        font-size: 180%;
+    }
+
+    .footer {
+        height: 10%;
+        margin-bottom: 3%;
+        font-size: 130%;
+    }
+
+    .middle {
+        height: auto;
+    }
+
+    .product__brief {
+        font-size: 75%;
+    }
+}
+
+@media (max-width: 850px) {
+    .footer {
+        font-size: 120%;
+    }
+
+    .product__brief {
+        font-size: 75%;
+    }
+}
+
+@media (max-width: 750px) {
+    .footer {
+        font-size: 100%;
+    }
+
+    .product__brief {
+        font-size: 65%;
+    }
+}
+
+@media (max-width: 650px) {
+    .product__brief {
+        font-size: 60%;
+    }
+}
+
+@media (max-width: 620px) {
+
+    .header {
+        margin-top: 8%;
+        font-size: 150%;
+    }
+
+    .footer {
+        height: 8%;
+        font-size: 100%;
+    }
+
+    .middle {
+        width: 70%;
+        height: 65%;
+        flex-direction: column;
+    }
+
+    .middle__inside__brief {
+        visibility: hidden;
+    }
+
+    .middle__inside__image {
+        height: 100%;
+    }
+
+    .middle__inside {
+        width: 60%;
+        height: 28%;
+    }
 }

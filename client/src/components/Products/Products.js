@@ -14,32 +14,32 @@ const Products = () => {
             <span>Unveiling Excellence in Copper Innovations: Explore Our Diverse Range of  Products - Copper Wire, Copper Rod, and Copper Strip.</span>
         </section>
         <section className={styles.middle}>
-            <section style={{ height: "100%", width: "22%", display: "flex", justifyContent: "space-between", alignItems: "center", flexDirection: "column" }}>
-                <section style={{ height: "70%", width: "100%" }}>
+            <section className={styles.middle__inside}>
+                <section className={styles.middle__inside__image}>
                     <Frame width={"100%"} height={"100%"} name={"Copper Wire"} image={"https://i.ibb.co/brsSPgv/copper-Wire.png"} />
                 </section>
-                <section style={{ width: "100%", height: "20%" }}>
+                <section className={styles.middle__inside__brief}>
                     <span className={styles.product__brief}>Used in power transmission, power distribution, telecommunications and countless types of electrical equipment.</span>
-                </section>
+                </section> 
             </section>
 
-            <section style={{ height: "100%", width: "22%", display: "flex", justifyContent: "space-between", alignItems: "center", flexDirection: "column" }}>
-                <section style={{ height: "70%", width: "100%" }}>
+            <section className={styles.middle__inside}>
+                <section className={styles.middle__inside__image}>
                     <Frame width={"100%"} height={"100%"} name={"Copper Rod"} image={"https://i.ibb.co/tYmD8LG/copper-Rod.png"} />
                 </section>
-                <section style={{ width: "100%", height: "20%" }}>
+                <section className={styles.middle__inside__brief}>
                     <span className={styles.product__brief}>Rods are popular for general applications such as busbars, transformer components and more.</span>
                 </section>
             </section>
-            <section style={{ height: "100%", width: "22%", display: "flex", justifyContent: "space-between", alignItems: "center", flexDirection: "column" }}>
-                <section style={{ height: "70%", width: "100%" }}>
+
+            <section className={styles.middle__inside}>
+                <section className={styles.middle__inside__image}>
                     <Frame width={"100%"} height={"100%"} name={"Copper Strip"} image={"https://i.ibb.co/FsJ8MKS/copper-Strip.png"} />
                 </section>
-                <section style={{ width: "100%", height: "20%", }}>
+                <section className={styles.middle__inside__brief}>
                     <span className={styles.product__brief}>Strips are used as heat-sinks, heat exchangers, condensers, lightning conductors and more.</span>
                 </section>
             </section>
-
         </section>
     </div>
 }

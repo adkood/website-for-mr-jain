@@ -29,9 +29,9 @@ const Technology = () => {
             <div id="slider-cont" className={styles.sliderCont}>
                 <section className={styles.sliderCont__left}>
                     <span>Revolutionizing Copper Production: Cutting-Edge Technologies Pave the Way for Efficiency and Sustainability</span>
-                    <GrCloudComputer style={{marginTop: "10%"}} color="#F0E0B4" size={"5rem"}/>
+                    <GrCloudComputer className={styles.sliderCont__left__icon} color="#F0E0B4" size={"5rem"}/>
                 </section>
-                <UseAnimations strokeColor="#F0E0B4" animation={activity} size={55}/>
+                <UseAnimations className={styles.sliderCont__aniIcon} strokeColor="#F0E0B4" animation={activity} size={55}/>
                 <section className={styles.sliderCont__middle}>
                     <Frame width="90%" height="75%" image={tech_list[currIdx].image} name={tech_list[currIdx].name} />
                     <section className={styles.dotBox}>
