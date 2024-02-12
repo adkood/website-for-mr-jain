@@ -23,7 +23,7 @@ const Technology = () => {
         <div className={styles.techno}>
             <div className={styles.top}>
                 <GiMoebiusStar size={"1rem"} />
-                <span>COPPER PRODUCTION Technology</span>
+                <span>Technology Used</span>
                 <GiMoebiusStar size={"1rem"} />
             </div>
             <div id="slider-cont" className={styles.sliderCont}>
