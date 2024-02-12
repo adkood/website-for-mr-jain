@@ -3,8 +3,6 @@ import styles from '../Application/Application.module.css';
 import Frame from '../../utils/Frame';
 import { tech_list } from '../../utils/Constants';
 import { GiMoebiusStar } from "react-icons/gi";
-import UseAnimations from 'react-useanimations';
-import infinity from 'react-useanimations/lib/infinity';
 
 const Application = () => {
 

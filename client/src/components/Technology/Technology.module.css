@@ -292,12 +292,12 @@ body {
     }
 
     .sliderCont__left {
-        margin-top: 10%;
+        margin-top: 8%;
         width: 80%;
         height: 10%;
         font-size: 90%;
         visibility: visible;
-        margin-bottom: 10%;
+        margin-bottom: 5%;
     }
 
     .sliderCont__middle {
@@ -326,7 +326,7 @@ body {
     }
 
     .sliderCont {
-        margin-top: 10%;
+        margin-top: 7%;
         width: 90%;
         height: 60%;
         flex-direction: column;
@@ -339,11 +339,11 @@ body {
         height: 10%;
         font-size: 90%;
         visibility: visible;
-        margin-bottom: 10%;
+        margin-bottom: 7%;
     }
 
     .sliderCont__middle {
-        margin-top: 10%;
+        margin-top: 7%;
         width: 70%;
         height: 75%;
         margin-right: 10%;
@@ -362,13 +362,13 @@ body {
 
 @media (max-height: 800px) {
     .top {
-        margin-top: 25%;
+        margin-top: 15%;
         height: 8%;
         font-size: 130%;
     }
 
     .sliderCont {
-        margin-top: 10%;
+        margin-top: 7%;
         width: 90%;
         height: 80%;
         flex-direction: column;
@@ -381,11 +381,11 @@ body {
         height: 10%;
         font-size: 90%;
         visibility: visible;
-        margin-bottom: 10%;
+        margin-bottom: 3%;
     }
 
     .sliderCont__middle {
-        margin-top: 10%;
+        margin-top: 3%;
         width: 70%;
         height: 75%;
         margin-right: 10%;
