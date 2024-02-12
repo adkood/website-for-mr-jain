@@ -68,8 +68,9 @@ body {
 }
 
 .sliderCont__right {
+    padding: 2%;
     margin-left: 3%;
-    width: 15%;
+    width: 16%;
     height: 60%;
     font-family: 'Julius Sans One', sans-serif;
     color: whitesmoke;
