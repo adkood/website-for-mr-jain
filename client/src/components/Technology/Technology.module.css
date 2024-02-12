@@ -48,7 +48,7 @@ body {
     flex-direction: column;
     align-items: center;
     letter-spacing: 5px;
-    margin-right: 4%;
+    margin-right: 3%;
 }
 
 .sliderCont__left__icon {
@@ -64,7 +64,7 @@ body {
     justify-content: space-evenly;
     align-items: center;
     flex-direction: column;
-    margin-left: 5%;
+    margin-left: 3%;
 }
 
 .sliderCont__right {
@@ -133,7 +133,7 @@ body {
     }
 
     .sliderCont__middle {
-        width: 30%;
+        width: 35%;
         height: 80%;
     }
 
@@ -163,7 +163,7 @@ body {
     }
 
     .sliderCont__middle {
-        width: 30%;
+        width: 35%;
         height: 75%;
     }
 
@@ -278,7 +278,7 @@ body {
 
 @media (max-width: 700px) {
     .top {
-        margin-top: 7%;
+        margin-top: 5%;
         height: 8%;
         font-size: 120%;
     }
@@ -295,14 +295,15 @@ body {
         margin-top: 10%;
         width: 80%;
         height: 10%;
-        font-size: 100%;
+        font-size: 90%;
         visibility: visible;
         margin-bottom: 10%;
     }
 
     .sliderCont__middle {
-        width: 80%;
-        height: 85%;
+        margin-top: 5%;
+        width: 70%;
+        height: 75%;
         margin-right: 10%;
     }
 
@@ -313,7 +314,7 @@ body {
 
     .dotBox {
         height: 10%;
-        width: 45%;
+        width: 25%;
     }
 }
 
@@ -325,6 +326,7 @@ body {
     }
 
     .sliderCont {
+        margin-top: 10%;
         width: 90%;
         height: 60%;
         flex-direction: column;
@@ -335,14 +337,15 @@ body {
     .sliderCont__left {
         width: 80%;
         height: 10%;
-        font-size: 100%;
+        font-size: 90%;
         visibility: visible;
-        margin-bottom: 20%;
+        margin-bottom: 10%;
     }
 
     .sliderCont__middle {
-        width: 80%;
-        height: 85%;
+        margin-top: 10%;
+        width: 70%;
+        height: 75%;
         margin-right: 10%;
     }
 
