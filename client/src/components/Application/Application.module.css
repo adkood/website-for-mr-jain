@@ -103,9 +103,43 @@ body {
 }
 
 @media (max-width: 850px) {
+    .top {
+        font-size: 190%;
+    }
     .sliderCont__inside {
         width: 60%;
         height: 90%;
+        display: block;
+        overflow: scroll;
+    }
+    .sliderCont__inside__frameWala {
+        width: 95%;
+        font-size: 80%;
+    }
+    
+    .sliderCont__inside::-webkit-scrollbar {
+        width: 0em; 
+    }
+
+    .sliderCont__inside::-webkit-scrollbar-thumb {
+        background-color: transparent; 
+    }
+}
+
+@media (max-width: 600px) {
+    .top {
+        font-size: 160%;
+        margin-top: 15%;
+    }
+
+    .middle {
+        font-size: 110%;
+        margin-top: 15%;
+    }
+
+    .sliderCont__inside {
+        width: 70%;
+        height: 80%;
         display: block;
         overflow: scroll;
     }

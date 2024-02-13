@@ -29,7 +29,7 @@
 }
 
 .middle {
-    width: 35%;
+    width: 40%;
     height: 60%;
     display: flex;
     justify-content: center;
@@ -49,7 +49,7 @@
 }
 
 .middle__item__left {
-    width: 40%;
+    width: 30%;
     height: 100%;
     color: #4F2F1C;
     font-size: 3rem;
@@ -63,11 +63,82 @@
     height: 90%;
     font-family: 'Julius Sans One', sans-serif;
     color: #4F2F1C;
-    font-size: 150%;
+    font-size: 140%;
     font-weight: bolder;
     display: flex;
     /* justify-content: center; */
     align-items: center;
     padding: 2%;
     text-align: left;
+}
+
+@media (max-width: 1500px)
+{
+    .top {
+        font-size: 210%;
+        margin-top: 3%;
+    }
+
+    .middle {
+        width: 50%
+    }
+
+    .middle__item__right {
+        font-size: 130%;
+    }
+}
+
+@media (max-width: 1150px)
+{
+    .top {
+        margin-top: 10%;
+    }
+}
+
+@media (max-width: 900px)
+{
+    .top {
+        font-size: 190%;
+        margin-top: 10%;
+    }
+
+    .middle {
+        width: 60%
+    }
+
+    .middle__item__right {
+        font-size: 110%;
+    }
+}
+
+@media (max-width: 700px)
+{
+    .top {
+        font-size: 170%;
+        margin-top: 15%;
+    }
+
+    .middle {
+        width: 70%
+    }
+
+    .middle__item__right {
+        font-size: 100%;
+    }
+}
+
+@media (max-width: 500px)
+{
+    .top {
+        font-size: 160%;
+        margin-top: 2%;
+    }
+
+    .middle {
+        width: 80%
+    }
+
+    .middle__item__right {
+        font-size: 90%;
+    }
 }

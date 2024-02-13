@@ -175,3 +175,36 @@ body {
         height: 28%;
     }
 }
+
+@media (max-width: 400px) {
+
+    .header {
+        margin-top: 5%;
+        font-size: 150%;
+    }
+
+    .footer {
+        margin-top: 8%;
+        height: 8%;
+        font-size: 90%;
+    }
+
+    .middle {
+        width: 60%;
+        height: 65%;
+        flex-direction: column;
+    }
+
+    .middle__inside__brief {
+        visibility: hidden;
+    }
+
+    .middle__inside__image {
+        height: 100%;
+    }
+
+    .middle__inside {
+        width: 60%;
+        height: 28%;
+    }
+}
