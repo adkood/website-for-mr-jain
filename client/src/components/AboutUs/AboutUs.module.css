@@ -40,7 +40,7 @@
     text-align: center;
 }
 
-@media (max-height: 950px)
+@media (max-height: 1000px)
 {
     .top {
         font-size: 170%;
@@ -61,6 +61,17 @@
     .bottom {
         width: 90%;
         font-size: 110%;
+    }
+}
+
+@media (max-width: 2000px)
+{
+    .top {
+        font-size: 210%;
+    }
+    .bottom {
+        width: 80%;
+        font-size: 180%;
     }
 }
 
