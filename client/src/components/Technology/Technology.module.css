@@ -405,7 +405,7 @@ body {
 
     .sliderCont__left {
         margin-top: 8%;
-        width: 80%;
+        width: 90%;
         height: 10%;
         font-size: 90%;
         visibility: visible;
@@ -415,7 +415,7 @@ body {
     .sliderCont__middle {
         margin-top: 5%;
         width: 60%;
-        height: 75%;
+        height: 72%;
         margin-right: 10%;
     }
 
@@ -432,9 +432,10 @@ body {
 
 @media (max-width: 600px) {
     .top {
-        margin-top: 4%;
+        /* margin-top: 4%; */
         height: 8%;
         font-size: 130%;
+        margin-bottom: 5%;
     }
 
     .sliderCont {
@@ -447,17 +448,17 @@ body {
     }
 
     .sliderCont__left {
-        width: 80%;
+        width: 90%;
         height: 10%;
         font-size: 90%;
         visibility: visible;
-        margin-bottom: 20%;
+        /* margin-bottom: 10%; */
     }
 
     .sliderCont__middle {
         margin-top: 7%;
         width: 70%;
-        height: 75%;
+        height: 72%;
         margin-right: 10%;
     }
 
