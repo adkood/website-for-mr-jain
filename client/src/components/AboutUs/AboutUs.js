@@ -3,7 +3,7 @@ import { GiMoebiusStar } from "react-icons/gi";
 
 const AboutUs = () => {
     return (
-        <div className={styles.aboutUs}>
+        <div id='about-us' className={styles.aboutUs}>
             <section className={styles.top}>
                 <GiMoebiusStar size={"1rem"} />
                 <span>About us</span>

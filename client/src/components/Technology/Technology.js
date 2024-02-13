@@ -20,7 +20,7 @@ const Technology = () => {
     }, []);
 
     return (
-        <div className={styles.techno}>
+        <div id="tech" className={styles.techno}>
             <div className={styles.top}>
                 <GiMoebiusStar size={"1rem"} />
                 <span>Technology</span>

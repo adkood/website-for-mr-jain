@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import styles from '../Application/Application.module.css';
 import Frame from '../../utils/Frame';
-import { tech_list } from '../../utils/Constants';
+import { appli_list } from '../../utils/Constants';
 import { GiMoebiusStar } from "react-icons/gi";
 
 const Application = () => {
@@ -13,10 +13,10 @@ const Application = () => {
 
     useEffect(() => {
         const intervalId = setInterval(() => {
-            set_fIdx(prevIdx => (prevIdx + 1) % tech_list.length);
-            set_sIdx(prevIdx => (prevIdx + 1) % tech_list.length);
-            set_tIdx(prevIdx => (prevIdx + 1) % tech_list.length);
-            set_foIdx(prevIdx => (prevIdx + 1) % tech_list.length);
+            set_fIdx(prevIdx => (prevIdx + 1) % appli_list.length);
+            set_sIdx(prevIdx => (prevIdx + 1) % appli_list.length);
+            set_tIdx(prevIdx => (prevIdx + 1) % appli_list.length);
+            set_foIdx(prevIdx => (prevIdx + 1) % appli_list.length);
         }, 5000);
 
         return () => clearInterval(intervalId);
@@ -24,7 +24,7 @@ const Application = () => {
 
 
     return (
-        <div className={styles.application}>
+        <div id='appli' className={styles.application}>
             <section className={styles.top}>
                 <GiMoebiusStar size={"1rem"} />
                 <span>Application</span>
@@ -37,34 +37,34 @@ const Application = () => {
                 <section className={styles.sliderCont__inside}>
                     <section className={styles.sliderCont__inside__frameWala}>
                         <section style={{ width: "100%", height: "65%" }}>
-                            <Frame width="100%" height="100%" image={tech_list[fIdx].image} name={tech_list[fIdx].name} />
+                            <Frame width="100%" height="100%" image={appli_list[fIdx].image} name={appli_list[fIdx].name} />
                         </section>
                         <section style={{ width: "100%", height: "25%", marginTop: "10%" }}>
-                            <span>whats swbs i siwbs swinswi sinwisn isbnwisb insibws iiwsnws isniwsb siwsiws ins inins siws</span>
+                            <span>{appli_list[fIdx].short}</span>
                         </section>
                     </section>
                     <section className={styles.sliderCont__inside__frameWala}>
                         <section style={{ width: "100%", height: "65%" }}>
-                            <Frame width="100%" height="100%" image={tech_list[sIdx].image} name={tech_list[sIdx].name} />
+                            <Frame width="100%" height="100%" image={appli_list[sIdx].image} name={appli_list[sIdx].name} />
                         </section>
                         <section style={{ width: "100%", height: "25%", marginTop: "10%" }}>
-                            <span>whats swbs i siwbs swinswi sinwisn isbnwisb insibws iiwsnws isniwsb siwsiws ins inins siws</span>
+                            <span>{appli_list[sIdx].short}</span>
                         </section>
                     </section>
                     <section className={styles.sliderCont__inside__frameWala}>
                         <section style={{ width: "100%", height: "65%" }}>
-                            <Frame width="100%" height="100%" image={tech_list[tIdx].image} name={tech_list[tIdx].name} />
+                            <Frame width="100%" height="100%" image={appli_list[tIdx].image} name={appli_list[tIdx].name} />
                         </section>
                         <section style={{ width: "100%", height: "25%", marginTop: "10%" }}>
-                            <span>whats swbs i siwbs swinswi sinwisn isbnwisb insibws iiwsnws isniwsb siwsiws ins inins siws</span>
+                            <span>{appli_list[tIdx].short}</span>
                         </section>
                     </section>
                     <section className={styles.sliderCont__inside__frameWala}>
                         <section style={{ width: "100%", height: "65%" }}>
-                            <Frame width="100%" height="100%" image={tech_list[foIdx].image} name={tech_list[foIdx].name} />
+                            <Frame width="100%" height="100%" image={appli_list[foIdx].image} name={appli_list[foIdx].name} />
                         </section>
                         <section style={{ width: "100%", height: "25%", marginTop: "10%" }}>
-                            <span>whats swbs i siwbs swinswi sinwisn isbnwisb insibws iiwsnws isniwsb siwsiws ins inins siws</span>
+                            <span>{appli_list[foIdx].short}</span>
                         </section>
                     </section>
                 </section>

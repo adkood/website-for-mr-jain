@@ -6,7 +6,7 @@ import { FaAddressBook } from "react-icons/fa";
 
 const ContactUs = () => {
     return (
-        <div className={styles.ContactUs}>
+        <div id='contact-us' className={styles.ContactUs}>
             <section className={styles.top}>
                 <GiMoebiusStar size={"1rem"} />
                 <span>Contact Us</span>
