@@ -39,6 +39,40 @@ body {
     letter-spacing: 5px;
 }
 
+@media (max-height: 900px){
+    .star {
+        position: relative;
+        top: 26%;
+        left: 48%;
+        transform: translate(-50%, -50%);
+    }
+
+    .content {
+        position: relative;
+        width: 60%;
+        font-size: 230%;
+        text-align: center;
+        color: whitesmoke;
+    }
+}
+
+@media (max-height: 700px){
+    .star {
+        position: relative;
+        top: 30%;
+        left: 48%;
+        transform: translate(-50%, -50%);
+    }
+
+    .content {
+        position: relative;
+        width: 60%;
+        font-size: 120%;
+        text-align: center;
+        color: whitesmoke;
+    }
+}
+
 @media (max-width: 1150px){
     .star {
         position: relative;
@@ -66,8 +100,8 @@ body {
 
     .content {
         position: relative;
-        width: 60%;
-        font-size: 170%;
+        width: 80%;
+        font-size: 140%;
         text-align: center;
         color: whitesmoke;
     }
@@ -90,35 +124,18 @@ body {
     }
 }
 
-@media (max-height: 900px){
+@media (max-width: 300px ){
     .star {
         position: relative;
-        top: 26%;
-        left: 48%;
+        top: 28%;
+        left: 50%;
         transform: translate(-50%, -50%);
     }
 
     .content {
         position: relative;
-        width: 60%;
-        font-size: 130%;
-        text-align: center;
-        color: whitesmoke;
-    }
-}
-
-@media (max-height: 700px){
-    .star {
-        position: relative;
-        top: 30%;
-        left: 48%;
-        transform: translate(-50%, -50%);
-    }
-
-    .content {
-        position: relative;
-        width: 60%;
-        font-size: 120%;
+        width: 70%;
+        font-size: 100%;
         text-align: center;
         color: whitesmoke;
     }

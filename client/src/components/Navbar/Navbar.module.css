@@ -44,7 +44,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    color: 4F2F1C;
+    color: #4F2F1C;
     font-weight: bold;
     font-size: 110%;
 }
@@ -55,7 +55,6 @@ body {
 }
 
 .nav__option>* {
-    /* padding: auto; */
     margin: auto;
     padding: 3px;
 }

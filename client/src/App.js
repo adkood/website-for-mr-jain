@@ -4,6 +4,7 @@ import Products from './components/Products/Products';
 import Technology from './components/Technology/Technology';
 import Application from './components/Application/Application';
 import AboutUs from './components/AboutUs/AboutUs';
+import ContactUs from './components/ContactUs/ContactUs';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Technology />
       <Application />
       <AboutUs />
+      <ContactUs />
     </>
   );
 }
