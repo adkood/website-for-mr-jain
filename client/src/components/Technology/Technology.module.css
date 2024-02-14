@@ -115,6 +115,10 @@ body {
         margin-right: 10%;
     }
 
+    .sliderCont__aniIcon {
+        display: none;
+    }
+
     .sliderCont__right {
         display: none;
     }
@@ -208,6 +212,10 @@ body {
 
     .sliderCont__left {
         font-size: 120%;
+    }
+
+    .sliderCont__aniIcon {
+        display: none;
     }
 
     .sliderCont__middle {
