@@ -1,7 +1,8 @@
+import React from 'react';
 import styles from '../AboutUs/AboutUs.module.css';
 import { GiMoebiusStar } from "react-icons/gi";
 
-const AboutUs = () => {
+const AboutUs = React.memo(() => {
     return (
         <div id='about-us' className={styles.aboutUs}>
             <section className={styles.top}>
@@ -16,6 +17,6 @@ const AboutUs = () => {
             </section>
         </div>
     );
-}
+});
 
 export default AboutUs; 

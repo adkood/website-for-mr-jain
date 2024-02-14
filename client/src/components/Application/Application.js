@@ -4,7 +4,7 @@ import Frame from '../../utils/Frame';
 import { appli_list } from '../../utils/Constants';
 import { GiMoebiusStar } from "react-icons/gi";
 
-const Application = () => {
+const Application = React.memo(() => {
 
     const [fIdx, set_fIdx] = useState(0);
     const [sIdx, set_sIdx] = useState(1);
@@ -72,7 +72,7 @@ const Application = () => {
         </div>
     )
 
-}
+});
 
 export default Application;
 

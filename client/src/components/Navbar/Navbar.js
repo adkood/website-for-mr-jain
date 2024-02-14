@@ -1,7 +1,7 @@
-import React, { useState } from 'react';
+import React from 'react';
 import style from '../Navbar/Navbar.module.css';
 
-const Navbar = () => {
+const Navbar = React.memo(() => {
 
     const scrollToTop = () => {
         window.scrollTo({
@@ -41,6 +41,6 @@ const Navbar = () => {
             </section>
         </div>
     );
-}
+});
 
 export default Navbar;

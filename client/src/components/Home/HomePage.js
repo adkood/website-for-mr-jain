@@ -2,7 +2,7 @@ import React from "react";
 import style from '../Home/HomePage.module.css';
 import { IoMdStar } from "react-icons/io";
 
-const HomePage = () => {
+const HomePage = React.memo(() => {
     return (
         <div id="name" className={style.home}>
             <IoMdStar className={style.star} size="2rem" color="white" />
@@ -13,6 +13,6 @@ const HomePage = () => {
             </div>
         </div>
     );
-};
+});
 
 export default HomePage;

@@ -1,10 +1,11 @@
+import React from 'react';
 import styles from '../ContactUs/ContactUs.module.css';
 import { GiMoebiusStar } from "react-icons/gi";
 import { FaSquarePhone } from "react-icons/fa6";
 import { MdAttachEmail } from "react-icons/md";
 import { FaAddressBook } from "react-icons/fa";
 
-const ContactUs = () => {
+const ContactUs = React.memo(() => {
     return (
         <div id='contact-us' className={styles.ContactUs}>
             <section className={styles.top}>
@@ -43,6 +44,6 @@ const ContactUs = () => {
             </section>
         </div>
     );
-}
+});
 
 export default ContactUs;

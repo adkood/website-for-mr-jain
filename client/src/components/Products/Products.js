@@ -3,7 +3,7 @@ import styles from '../Products/Products.module.css';
 import Frame from '../../utils/Frame';
 import { GiMoebiusStar } from "react-icons/gi";
 
-const Products = () => {
+const Products = React.memo(() => {
     return <div id='prod' className={styles.prod}>
         <section className={styles.header}>
             <GiMoebiusStar size={"1rem"} />
@@ -42,6 +42,6 @@ const Products = () => {
             </section>
         </section>
     </div>
-}
+});
 
 export default Products;
