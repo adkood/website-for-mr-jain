@@ -7,7 +7,7 @@ body {
     height: 100vh;
     background-color: #4F2F1C;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
     flex-direction: column;
 }
@@ -59,7 +59,7 @@ body {
     width: 33%;
     height: 90%;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
     flex-direction: column;
     margin-left: 3%;
@@ -98,13 +98,13 @@ body {
         width: 60%;
         height: 80%;
         flex-direction: column;
-        justify-content: space-evenly;
+        justify-content: space-between;
         align-items: center;
     }
 
     .sliderCont__left {
         width: 80%;
-        height: 10%;
+        height: 5%;
         font-size: 90%;
         visibility: visible;
     }
@@ -116,8 +116,7 @@ body {
     }
 
     .sliderCont__right {
-        width: 0%;
-        visibility: hidden;
+        display: none;
     }
 
     .dotBox {
@@ -126,28 +125,37 @@ body {
     }
 }
 
-@media (max-width: 2050px) {
+@media (max-width: 2050px) and (max-height: 800px) {
+
     .top {
-        margin-top: 5%;
-        height: 8%;
+        margin-top: 15%;
+        height: 3%;
         font-size: 200%;
     }
 
     .sliderCont {
-        width: 75%;
-        height: 65%;
+        width: 95%;
+        height: 70%;
+        margin-bottom: 10%;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
     }
 
     .sliderCont__left {
-        font-size: 140%;
+        height: 3%;
+        width: 100%;
+        font-size: 130%;
     }
 
     .sliderCont__middle {
         width: 30%;
+        height: 92%;
+        margin-bottom: 12%;
     }
 
     .sliderCont__right {
-        font-size: 120%;
+        display: none;
     }
 
     .dotBox {
@@ -157,14 +165,15 @@ body {
 
 @media (max-width: 1350px) {
     .top {
-        margin-top: 5%;
-        height: 8%;
-        font-size: 200%;
+        margin-top: 10%;
+        height: 5%;
+        font-size: 190%;
     }
 
     .sliderCont {
-        width: 95%;
-        height: 65%;
+        width: 85%;
+        height: 70%;
+        margin-bottom: 10%;
     }
 
     .sliderCont__left {
@@ -187,13 +196,12 @@ body {
 
 @media (max-width: 1250px) {
     .top {
-        margin-top: 5%;
+        margin-top: 10%;
         height: 8%;
         font-size: 180%;
     }
 
     .sliderCont {
-        margin-top: 7%;
         width: 95%;
         height: 65%;
     }
@@ -204,7 +212,8 @@ body {
 
     .sliderCont__middle {
         width: 35%;
-        height: 70%;
+        height: 80%;
+        margin-bottom: 10%;
     }
 
     .sliderCont__right {
@@ -216,154 +225,24 @@ body {
     }
 }
 
-/* @media (max-width: 1000px) {
-    .top {
-        margin-top: 7%;
-        height: 8%;
-        font-size: 180%;
-    }
-
-    .sliderCont {
-        width: 95%;
-        height: 65%;
-    }
-
-    .sliderCont__left {
-        font-size: 90%;
-    }
-
-    .sliderCont__middle {
-        width: 30%;
-        height: 75%;
-    }
-
-    .sliderCont__right {
-        font-size: 100%;
-    }
-
-    .dotBox {
-        width: 35%;
-    }
-}
-
-@media (max-width: 950px) {
-    .top {
-        margin-top: 7%;
-        height: 8%;
-        font-size: 180%;
-    }
-
-    .sliderCont {
-        width: 98%;
-        height: 65%;
-    }
-
-    .sliderCont__left {
-        font-size: 80%;
-    }
-
-    .sliderCont__middle {
-        width: 30%;
-        height: 70%;
-    }
-
-    .sliderCont__right {
-        font-size: 90%;
-    }
-
-    .dotBox {
-        width: 35%;
-    }
-}
-
-@media (max-width: 900px) {
-    .top {
-        margin-top: 7%;
-        height: 8%;
-        font-size: 160%;
-    }
-
-    .sliderCont {
-        width: 90%;
-        height: 65%;
-    }
-
-    .sliderCont__left {
-        font-size: 90%;
-    }
-
-    .sliderCont__middle {
-        width: 45%;
-        height: 85%;
-    }
-
-    .sliderCont__aniIcon {
-        margin-left: 5cqmax;
-    }    
-
-    .sliderCont__right {
-        width: 0%;
-        visibility: hidden;
-    }
-
-    .dotBox {
-        width: 35%;
-    }
-} */
-
-/* @media (max-width: 800px) {
-    .top {
-        margin-top: 7%;
-        height: 8%;
-        font-size: 130%;
-    }
-
-    .sliderCont {
-        width: 90%;
-        height: 60%;
-    }
-
-    .sliderCont__left {
-        font-size: 80%;
-    }
-
-    .sliderCont__middle {
-        width: 40%;
-        height: 75%;
-    }
-
-    .sliderCont__aniIcon {
-        visibility: hidden;
-    }
-
-    .sliderCont__right {
-        width: 0%;
-        visibility: hidden;
-    }
-
-    .dotBox {
-        width: 45%;
-    }
-} */
 
 @media (max-width: 1100px) {
     .top {
-        margin-top: 5%;
+        margin-top: 10%;
         height: 8%;
         font-size: 160%;
     }
 
     .sliderCont {
-        border: 1px solid white;
-        width: 90%;
-        height: 70%;
+        width: 85%;
+        height: 75%;
         flex-direction: column;
-        justify-content: space-evenly;
+        justify-content: space-between;
         align-items: center;
+        /* margin-bottom: 9%; */
     }
 
     .sliderCont__left {
-        margin-top: 5%;
         width: 80%;
         height: 5%;
         font-size: 110%;
@@ -378,8 +257,7 @@ body {
     }
 
     .sliderCont__right {
-        width: 0%;
-        visibility: hidden;
+        display: none;
     }
 
     .dotBox {
@@ -390,21 +268,21 @@ body {
 
 @media (max-width: 800px) {
     .top {
-        margin-top: 5%;
-        height: 8%;
+        margin-top: 10%;
+        height: 5%;
         font-size: 130%;
     }
 
     .sliderCont {
-        width: 90%;
-        height: 70%;
+        width: 80%;
+        height: 76%;
         flex-direction: column;
-        justify-content: space-evenly;
+        justify-content: space-between;
         align-items: center;
+        /* margin-bottom: 5%; */
     }
 
     .sliderCont__left {
-        margin-top: 8%;
         width: 90%;
         height: 5%;
         font-size: 90%;
@@ -413,15 +291,13 @@ body {
     }
 
     .sliderCont__middle {
-        margin-top: 5%;
-        width: 60%;
-        height: 72%;
+        width: 50%;
+        height: 75%;
         margin-right: 10%;
     }
 
     .sliderCont__right {
-        width: 0%;
-        visibility: hidden;
+        display: none;
     }
 
     .dotBox {
@@ -432,7 +308,6 @@ body {
 
 @media (max-width: 600px) {
     .top {
-        /* margin-top: 4%; */
         height: 5%;
         font-size: 130%;
         margin-bottom: 5%;
@@ -452,7 +327,6 @@ body {
         height: 5%;
         font-size: 80%;
         visibility: visible;
-        /* margin-bottom: 10%; */
     }
 
     .sliderCont__middle {
