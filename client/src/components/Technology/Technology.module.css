@@ -350,12 +350,13 @@ body {
     .top {
         margin-top: 5%;
         height: 8%;
-        font-size: 150%;
+        font-size: 160%;
     }
 
     .sliderCont {
+        border: 1px solid white;
         width: 90%;
-        height: 60%;
+        height: 70%;
         flex-direction: column;
         justify-content: space-evenly;
         align-items: center;
@@ -364,16 +365,15 @@ body {
     .sliderCont__left {
         margin-top: 5%;
         width: 80%;
-        height: 10%;
+        height: 5%;
         font-size: 110%;
         visibility: visible;
         margin-bottom: 5%;
     }
 
     .sliderCont__middle {
-        /* margin-top: 5%; */
         width: 40%;
-        height: 75%;
+        height: 70%;
         margin-right: 10%;
     }
 
@@ -397,7 +397,7 @@ body {
 
     .sliderCont {
         width: 90%;
-        height: 60%;
+        height: 70%;
         flex-direction: column;
         justify-content: space-evenly;
         align-items: center;
@@ -406,7 +406,7 @@ body {
     .sliderCont__left {
         margin-top: 8%;
         width: 90%;
-        height: 10%;
+        height: 5%;
         font-size: 90%;
         visibility: visible;
         margin-bottom: 5%;
@@ -433,7 +433,7 @@ body {
 @media (max-width: 600px) {
     .top {
         /* margin-top: 4%; */
-        height: 8%;
+        height: 5%;
         font-size: 130%;
         margin-bottom: 5%;
     }
@@ -441,7 +441,7 @@ body {
     .sliderCont {
         margin-top: 7%;
         width: 90%;
-        height: 60%;
+        height: 70%;
         flex-direction: column;
         justify-content: space-evenly;
         align-items: center;
@@ -449,15 +449,15 @@ body {
 
     .sliderCont__left {
         width: 90%;
-        height: 10%;
-        font-size: 90%;
+        height: 5%;
+        font-size: 80%;
         visibility: visible;
         /* margin-bottom: 10%; */
     }
 
     .sliderCont__middle {
         margin-top: 7%;
-        width: 70%;
+        width: 65%;
         height: 72%;
         margin-right: 10%;
     }
@@ -468,7 +468,7 @@ body {
     }
 
     .dotBox {
-        height: 15%;
+        height: 13%;
         width: 35%;
     }
 }
