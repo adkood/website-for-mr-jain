@@ -31,9 +31,9 @@
     width: 70%;
     height: 50%;
     font-family: 'Julius Sans One', sans-serif;
-    color: white;
+    color: #F0E0B4;
     font-size: 200%;
-    /* font-weight: bold; */
+    font-weight: bold;
     display: flex;
     justify-content: center;
     align-items: center;
