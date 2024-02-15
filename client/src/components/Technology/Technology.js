@@ -6,10 +6,14 @@ import { tech_list } from '../../utils/Constants';
 import { GrCloudComputer } from "react-icons/gr";
 import UseAnimations from "react-useanimations";
 import activity from 'react-useanimations/lib/activity';
+import { useDispatch } from 'react-redux';
+import { modalActions } from "../../store";
+import { currentActions } from "../../store";
 
 const Technology = React.memo(() => {
 
     const [currIdx, setCurrIdx] = useState(0);
+    const dispatch = useDispatch();
 
     useEffect(() => {
         const intervalId = setInterval(() => {
@@ -32,7 +36,10 @@ const Technology = React.memo(() => {
                     <GrCloudComputer className={styles.sliderCont__left__icon} color="#F0E0B4" size={"5rem"} />
                 </section>
                 <UseAnimations className={styles.sliderCont__aniIcon} strokeColor="#F0E0B4" animation={activity} size={55} />
-                <section className={styles.sliderCont__middle}>
+                <section className={styles.sliderCont__middle} onClick={() => {
+                    dispatch(modalActions.techStateToggle());
+                    dispatch(currentActions.changeTechnologyState(tech_list[currIdx].id - 1));
+                }}>
                     <Frame width="90%" height="75%" image={tech_list[currIdx].image} name={tech_list[currIdx].name} />
                     <section className={styles.dotBox}>
                         <div style={{ width: "15px", height: "15px", borderRadius: "50%", backgroundColor: `${tech_list[currIdx].id === '1' ? "green" : "white"}` }}></div>

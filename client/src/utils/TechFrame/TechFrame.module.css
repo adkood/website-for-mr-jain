@@ -1,0 +1,258 @@
+.main {
+    width: 90vw;
+    height: 90vh;
+    background-color: #f0e8d3;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: #4F2F1C;
+    overflow: hidden;
+}
+
+.main__left {
+    width: 40%;
+    height: 100%;
+    background-color: #955935;
+    color: #f0e8d3;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.main__left__top {
+    width: 90%;
+    height: 45%;
+}
+
+.main__left__middle {
+    width: 90%;
+    height: 5%;
+    font-family: 'Julius Sans One', sans-serif;
+    letter-spacing: 5px;
+    font-size: 150%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main__left__bottom {
+    width: 90%;
+    height: 30%;
+    font-family: 'Julius Sans One', sans-serif;
+    letter-spacing: 5px;
+    font-size: 150%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.main__right {
+    width: 60%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.main__right__heading {
+    width: 90%;
+    padding: 5px;
+    padding-left: 5px;
+    color: #f0e8d3;
+    background-color: #955935;
+    border-radius: 5px;
+    font-family: 'Julius Sans One', sans-serif;
+    letter-spacing: 5px;
+    font-size: 140%;
+}
+
+.main__right__top {
+    width: 100%;
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: 'Julius Sans One', sans-serif;
+    letter-spacing: 5px;
+    font-size: 80%;
+}
+
+.main__right__middle {
+    width: 100%;
+    height: 27%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: 'Julius Sans One', sans-serif;
+    letter-spacing: 5px;
+    font-size: 80%;
+}
+
+.main__right__bottom {
+    width: 100%;
+    height: 33%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: 'Julius Sans One', sans-serif;
+    letter-spacing: 5px;
+    font-size: 80%;
+}
+
+@media (max-height: 800px) {
+    .main__left__middle {
+        font-size: 125%;
+    }
+
+    .main__left__bottom {
+        font-size: 115%;
+    }
+
+    .main__right__heading {
+        font-size: 130%;
+    }
+
+    .main__right__top,
+    .main__right__middle,
+    .main__right__bottom {
+        font-size: 65%;
+    }
+}
+
+@media (max-width: 1300px) {
+    .main__right__heading {
+        font-size: 130%;
+    }
+
+    .main__right__top,
+    .main__right__middle,
+    .main__right__bottom {
+        font-size: 70%;
+    }
+}
+
+@media (max-width: 1200px) {
+
+    .main__left__top {
+        width: 99%;
+    }
+
+    .main__left__middle {
+        width: 99%;
+        font-size: 120%;
+    }
+
+    .main__left__bottom {
+        width: 99%;
+        font-size: 110%;
+    }
+}
+
+@media (max-width: 900px) {
+
+    .main {
+        flex-direction: column;
+        overflow-y: auto;
+    }
+
+    .main__left {
+        margin: 10px;
+        width: 95%;
+        height: 50%;
+    }
+
+    .main__left__top {
+        width: 60%;
+        height: 60%;
+    }
+
+    .main__left__middle {
+        width: 99%;
+        height: 5%;
+        font-size: 110%;
+    }
+
+    .main__left__bottom {
+        width: 99%;
+        height: 30%;
+        font-size: 100%;
+    }
+
+    .main__right {
+        border: 1px solid;
+        width: 100%;
+        height: 50%;
+    }
+
+    .main__right__top {
+        display: none;
+    }
+
+    .main__right__middle {
+        height: 45%;
+    }
+
+    .main__right__bottom {
+        height: 55%;
+    }
+   
+}
+
+@media (max-width: 500px) {
+
+    .main {
+        flex-direction: column;
+        overflow-y: auto;
+    }
+
+    .main__left {
+        margin: 10px;
+        width: 95%;
+        height: 50%;
+    }
+
+    .main__left__top {
+        width: 60%;
+        height: 60%;
+    }
+
+    .main__left__middle {
+        width: 99%;
+        height: 5%;
+        font-size: 100%;
+    }
+
+    .main__left__bottom {
+        width: 99%;
+        height: 30%;
+        font-size: 90%;
+    }
+
+    .main__right {
+        border: 1px solid;
+        width: 100%;
+        height: 50%;
+    }
+
+    .main__right__top {
+        display: none;
+    }
+
+    .main__right__middle {
+        height: 50%;
+        font-size: 60%;
+    }
+
+    .main__right__bottom {
+        height: 50%;
+        font-size: 60%;
+    }
+   
+}
