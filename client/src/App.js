@@ -3,7 +3,8 @@ import Modal from '../src/utils/Modal/Modal';
 import ProductFrame from './utils/ProductFrame/ProductFrame';
 import TechFrame from './utils/TechFrame/TechFrame';
 import { modalActions } from './store';
-import { useSelector } from 'react-redux'; 
+import { useSelector } from 'react-redux';
+import AppliFrame from './utils/AppliFrame/AppliFrame';
 
 const Navbar = lazy(() => import('./components/Navbar/Navbar'));
 const HomePage = lazy(() => import('./components/Home/HomePage'));
@@ -18,6 +19,7 @@ function App() {
 
   const isProductModalOpen = useSelector((state) => state.modal.productState);
   const isTechModalOpen = useSelector((state) => state.modal.techState);
+  const isApplicationModalOpen = useSelector((state) => state.modal.applicationState);
 
   return (
     <Suspense fallback={<div style={{ color: "brown", fontSize: "1.5rem" }}>Loading...</div>}>
@@ -33,6 +35,9 @@ function App() {
       </Modal>
       <Modal isOpen={isTechModalOpen} closeModal={modalActions.techStateToggle}>
         <TechFrame />
+      </Modal>
+      <Modal isOpen={isApplicationModalOpen} closeModal={modalActions.applicaionStateToggle}>
+        <AppliFrame />
       </Modal>
     </Suspense>
   );

@@ -4,7 +4,8 @@ import { configureStore, createSlice } from '@reduxjs/toolkit';
 
 const initialModalState = {
     productState: false,
-    techState: false
+    techState: false,
+    applicationState: false,
 }
 
 const modalSlice = createSlice({
@@ -16,6 +17,9 @@ const modalSlice = createSlice({
         },
         techStateToggle(state) {
             state.techState = !state.techState; 
+        },
+        applicaionStateToggle(state) {
+            state.applicationState = !state.applicationState; 
         }
     }
 });
