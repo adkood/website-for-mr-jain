@@ -22,8 +22,9 @@
   }
   
   .closeButton {
-    margin: 15px;
+    margin: 10px;
     font-size: 3rem;
+    font-weight: bold;
     color: red;
     transform: translate(-50%, -50%);
     cursor: pointer;
