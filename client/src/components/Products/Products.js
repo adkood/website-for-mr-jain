@@ -3,7 +3,6 @@ import styles from '../Products/Products.module.css';
 import Frame from '../../utils/Frame';
 import { GiMoebiusStar } from "react-icons/gi";
 import { useDispatch } from 'react-redux';
-import { PiButterflyFill } from "react-icons/pi";
 import { currentActions } from '../../store';
 import { modalActions } from '../../store';
 
@@ -18,25 +17,8 @@ const Products = React.memo(() => {
         threshold: 0.5,
     });
 
-    useEffect(() => {
-        const butterfly = document.getElementById('butterfly2');
-        function moveButterfly() {
-            const screenWidth = window.innerWidth;
-            const screenHeight = window.innerHeight;
-
-            const randomX = Math.floor(Math.random() * screenWidth);
-            const randomY = Math.floor(Math.random() * screenHeight);
-
-            butterfly.style.transition = 'transform 5s ease-in-out';
-            butterfly.style.transform = `translate(${randomX}px, ${randomY}px)`;
-        }
-
-        setInterval(moveButterfly, 3000);
-    }, []);
-
 
     return <div ref={ref} id='prod' className={styles.prod}>
-        <PiButterflyFill id='butterfly2' className={styles.butterfly} />
         <section className={`${styles.header} ${inView ? styles.inView : ''}`}>
             <GiMoebiusStar size={"1rem"} />
             <span> our products</span>
