@@ -12,21 +12,21 @@ body {
 
 .butterfly01 {
     font-size: 2rem;
-    color: orchid;
+    color: #c5ac69;
     position: absolute;
     transition: transform 5s ease-in-out;
 }
 
 .butterfly02 {
     font-size: 2rem;
-    color: orange;
+    color: #c5ac69;
     position: absolute;
     transition: transform 5s ease-in-out;
 }
 
 .butterfly03 {
     font-size: 2rem;
-    color: seagreen;
+    color: #c5ac69;
     position: absolute;
     transition: transform 5s ease-in-out;
 }
