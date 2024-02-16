@@ -21,10 +21,12 @@ const Products = React.memo(() => {
         </section>
         <section className={styles.middle}>
             <section className={styles.middle__inside}>
-                <section onClick={() => {
-                    dispatch(currentActions.changeProductState(0));
-                    dispatch(modalActions.productStateToggle());
-                }} className={styles.middle__inside__image}>
+                <section 
+                // onClick={() => {
+                //     dispatch(currentActions.changeProductState(0));
+                //     dispatch(modalActions.productStateToggle());
+                // }} 
+                className={styles.middle__inside__image}>
                     <Frame width={"100%"} height={"100%"} name={"Copper Wire"} image={"https://i.ibb.co/brsSPgv/copper-Wire.png"} />
                 </section>
                 <section className={styles.middle__inside__brief}>
@@ -32,10 +34,12 @@ const Products = React.memo(() => {
                 </section>
             </section>
 
-            <section onClick={() => {
-                dispatch(currentActions.changeProductState(1));
-                dispatch(modalActions.productStateToggle());
-            }} className={styles.middle__inside}>
+            <section 
+            // onClick={() => {
+            //     dispatch(currentActions.changeProductState(1));
+            //     dispatch(modalActions.productStateToggle());
+            // }}
+             className={styles.middle__inside}>
                 <section className={styles.middle__inside__image}>
                     <Frame width={"100%"} height={"100%"} name={"Copper Rod"} image={"https://i.ibb.co/tYmD8LG/copper-Rod.png"} />
                 </section>
@@ -44,10 +48,12 @@ const Products = React.memo(() => {
                 </section>
             </section>
 
-            <section onClick={() => {
-                dispatch(currentActions.changeProductState(2));
-                dispatch(modalActions.productStateToggle());
-            }} className={styles.middle__inside}>
+            <section 
+            // onClick={() => {
+            //     dispatch(currentActions.changeProductState(2));
+            //     dispatch(modalActions.productStateToggle());
+            // }} 
+            className={styles.middle__inside}>
                 <section className={styles.middle__inside__image}>
                     <Frame width={"100%"} height={"100%"} name={"Copper Strip"} image={"https://i.ibb.co/FsJ8MKS/copper-Strip.png"} />
                 </section>
