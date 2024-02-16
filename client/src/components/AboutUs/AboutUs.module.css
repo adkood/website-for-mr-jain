@@ -72,6 +72,7 @@
     }
     .bottom {
         width: 80%;
+        height: 65%;
         font-size: 170%;
     }
 }
@@ -82,6 +83,7 @@
         font-size: 210%;
     }
     .bottom {
+        height: 70%;
         font-size: 140%;
     }
 }
@@ -89,10 +91,12 @@
 @media (max-width: 1000px)
 {
     .top {
+        height: 5%;
         font-size: 200%;
     }
     .bottom {
-        font-size: 120%;
+        height: 55%;
+        font-size: 140%;
     }
 }
 
@@ -104,7 +108,8 @@
 
     .bottom {
         width: 80%;
-        font-size: 100%;
+        height: 50%;
+        font-size: 110%;
     }
 }
 
@@ -117,6 +122,6 @@
     .bottom {
         margin-bottom: 20%;
         width: 90%;
-        font-size: 80%;
+        font-size: 90%;
     }
 }
