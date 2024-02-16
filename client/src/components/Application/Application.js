@@ -5,8 +5,14 @@ import { appli_list } from '../../utils/Constants';
 import { GiMoebiusStar } from "react-icons/gi";
 import { modalActions, currentActions } from '../../store';
 import { UseDispatch, useDispatch } from 'react-redux';
+import { useInView } from 'react-intersection-observer';
 
 const Application = React.memo(() => {
+
+    const [ref,inView] = useInView({
+        triggerOnce: true,
+        threshold: 0.5
+    })
 
     const dispatch = useDispatch();
     const [fIdx, set_fIdx] = useState(0);
@@ -26,16 +32,16 @@ const Application = React.memo(() => {
     }, []);
 
     return (
-        <div id='appli' className={styles.application}>
-            <section className={styles.top}>
+        <div ref={ref} id='appli' className={styles.application}>
+            <section className={`${styles.top} ${inView ? styles.inView : ''}`}>
                 <GiMoebiusStar size={"1rem"} />
                 <span>Application</span>
                 <GiMoebiusStar size={"1rem"} />
             </section>
-            <section className={styles.middle}>
+            <section className={`${styles.middle} ${inView ? styles.inView : ''}`}>
                 <span>Maximizing Potential: Innovative Applications of Copper Products at JDJ</span>
             </section>
-            <section className={styles.slider_cont}>
+            <section className={`${styles.slider_cont} ${inView ? styles.inView : ''}`}>
                 <section className={styles.sliderCont__inside}>
                     <section className={styles.sliderCont__inside__frameWala}>
                         <section onClick={() => {
