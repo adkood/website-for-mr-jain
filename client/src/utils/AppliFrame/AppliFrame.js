@@ -2,7 +2,7 @@ import styles from '../AppliFrame/AppliFrame.module.css';
 
 import { appli_list } from '../Constants';
 import { useSelector } from 'react-redux';
-import LineInfo from '../TechFrame/LineInfo';
+import LineInfo from '../AppliFrame/LineInfo';
 
 const AppliFrame = () => {
 
@@ -19,6 +19,7 @@ const AppliFrame = () => {
                 </section>
             </section>
             <section className={styles.main__right}>
+                <span className={styles.main__right__heading}>{appli_list[applicationState].name}</span>
                 <section className={styles.main__right__top}>
                     <span>{appli_list[applicationState].long}</span>
                 </section>

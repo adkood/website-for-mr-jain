@@ -1,0 +1,16 @@
+.main {
+    width: 90%;
+    height: 16%;
+    display: flex;
+}
+
+.main__left {
+    width: 10%;
+    height: 100%;
+    font-size: 1.1rem;
+}
+
+.main__right {
+    width: 90%;
+    height: 100%;
+}
