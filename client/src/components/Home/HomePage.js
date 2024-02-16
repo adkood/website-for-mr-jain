@@ -19,9 +19,9 @@ const HomePage = React.memo(() => {
 
         const moveButterflies = () => {
             moveButterfly('butterfly01');
-            moveButterfly('butterfly02');
-            moveButterfly('butterfly03');
-            
+            // moveButterfly('butterfly02');
+            // moveButterfly('butterfly03');
+
             setTimeout(moveButterflies, 3000);
         };
 
@@ -31,8 +31,8 @@ const HomePage = React.memo(() => {
     return (
         <div id="name" className={style.home}>
             <GiBee id="butterfly01" className={style.butterfly01} />
-            <GiBee id="butterfly02" className={style.butterfly02} />
-            <GiBee id="butterfly03" className={style.butterfly03} />
+            {/* <GiBee id="butterfly02" className={style.butterfly02} />
+            <GiBee id="butterfly03" className={style.butterfly03} /> */}
             <IoMdStar className={style.star} size="2rem" color="white" />
             <div className={style.cont}>
                 <span className={style.content}>
