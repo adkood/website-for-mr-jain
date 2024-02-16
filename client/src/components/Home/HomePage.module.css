@@ -10,6 +10,27 @@ body {
     overflow: hidden;
 }
 
+.butterfly01 {
+    font-size: 2rem;
+    color: orchid;
+    position: absolute;
+    transition: transform 5s ease-in-out;
+}
+
+.butterfly02 {
+    font-size: 2rem;
+    color: orange;
+    position: absolute;
+    transition: transform 5s ease-in-out;
+}
+
+.butterfly03 {
+    font-size: 2rem;
+    color: seagreen;
+    position: absolute;
+    transition: transform 5s ease-in-out;
+}
+
 .cont {
     width: 100vw;
     height: 100vh;

@@ -143,6 +143,10 @@
     .main__right__top {
         font-size: 80%;
     }
+
+    .main__right__bottom {
+        display: none;
+    }
    
 }
 

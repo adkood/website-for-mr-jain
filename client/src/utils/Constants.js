@@ -52,4 +52,4 @@ export const appli_list = [{
         "High ductility",
         "Highest conductivity",
         "Easy coating of metallic tin"]
-}, { id: '5', image: 'https://i.ibb.co/dfwr2PY/storm-2496251.jpg', name: "Lightning Protection", short: 'JDJ’s continuously extruded bare copper tape is the brand of choice by the electrical installers & contractors as an earthing conductor for lightning protection.' , long: "High conductivity of high purity copper from Metrod provides the security & safety to ever y homeowner in case the lightning strikes."}];
+}, { id: '5', image: 'https://i.ibb.co/dfwr2PY/storm-2496251.jpg', name: "Lightning Protection", short: 'JDJ’s continuously extruded bare copper tape is the brand of choice by the electrical installers & contractors as an earthing conductor for lightning protection.', long: "High conductivity of high purity copper from Metrod provides the security & safety to ever y homeowner in case the lightning strikes." }];
