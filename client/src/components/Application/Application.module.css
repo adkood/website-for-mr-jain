@@ -85,6 +85,10 @@ body {
 }
 
 @media (max-width: 1400px) {
+    .top {
+        font-size: 180%;
+    }
+
     .middle {
         font-size: 120%;
     }
@@ -105,13 +109,13 @@ body {
     }
 
     .sliderCont__inside__frameWala {
-        font-size: 70%;
+        font-size: 60%;
     }
 }
 
-@media (max-width: 950px) {
+@media (max-width: 1050px) {
     .top {
-        font-size: 190%;
+        font-size: 160%;
     }
     .sliderCont__inside {
         width: 60%;
@@ -121,7 +125,7 @@ body {
     }
     .sliderCont__inside__frameWala {
         width: 95%;
-        font-size: 70%;
+        font-size: 80%;
     }
     
     .sliderCont__inside::-webkit-scrollbar {
@@ -133,9 +137,16 @@ body {
     }
 }
 
+@media (max-width: 1050px) {
+
+    .sliderCont__inside__frameWala {
+        font-size: 70%;
+    }
+}
+
 @media (max-width: 600px) {
     .top {
-        font-size: 160%;
+        font-size: 150%;
         margin-top: 15%;
     }
 
@@ -152,7 +163,7 @@ body {
     }
     .sliderCont__inside__frameWala {
         width: 95%;
-        font-size: 61%;
+        font-size: 56%;
     }
     
     .sliderCont__inside::-webkit-scrollbar {
