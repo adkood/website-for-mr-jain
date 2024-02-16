@@ -4,6 +4,7 @@ import { GiMoebiusStar } from "react-icons/gi";
 import { FaSquarePhone } from "react-icons/fa6";
 import { MdAttachEmail } from "react-icons/md";
 import { FaAddressBook } from "react-icons/fa";
+import { MdFileCopy } from "react-icons/md";
 
 const ContactUs = React.memo(() => {
     return (
@@ -21,6 +22,9 @@ const ContactUs = React.memo(() => {
                     <section className={styles.middle__item__right}>
                         <span>+91 9205186548</span>
                     </section>
+                    <section className={styles.middle__item__copy}>
+                        <MdFileCopy />
+                    </section>
                 </section>
 
                 <section className={styles.middle__item}>
@@ -30,6 +34,9 @@ const ContactUs = React.memo(() => {
                     <section className={styles.middle__item__right}>
                         <span>Info.jdjain@gmail.com</span>
                     </section>
+                    <section className={styles.middle__item__copy}>
+                        <MdFileCopy />
+                    </section>
                 </section>
 
                 <section className={styles.middle__item}>
@@ -38,6 +45,9 @@ const ContactUs = React.memo(() => {
                     </section>
                     <section className={styles.middle__item__right}>
                         <span>JDJ ALLOYS PVT LTD, Kundali village, Kundli, Haryana</span>
+                    </section>
+                    <section className={styles.middle__item__copy}>
+                        <MdFileCopy />
                     </section>
                 </section>
 

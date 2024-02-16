@@ -48,6 +48,7 @@ body {
 .middle__inside__image {
     height: 70%;
     width: 100%;
+    cursor: pointer;
 }
 
 .middle__inside__brief {

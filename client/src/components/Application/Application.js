@@ -41,7 +41,7 @@ const Application = React.memo(() => {
                         <section onClick={() => {
                             dispatch(modalActions.applicaionStateToggle());
                             dispatch(currentActions.changeApplicationState(appli_list[fIdx].id - 1));
-                        }} style={{ width: "100%", height: "65%" }}>
+                        }} style={{ width: "100%", height: "65%", cursor: "pointer" }}>
                             <Frame width="100%" height="100%" image={appli_list[fIdx].image} name={appli_list[fIdx].name} />
                         </section>
                         <section style={{ width: "100%", height: "25%", marginTop: "10%" }}>
@@ -52,7 +52,7 @@ const Application = React.memo(() => {
                         <section onClick={() => {
                             dispatch(modalActions.applicaionStateToggle());
                             dispatch(currentActions.changeApplicationState(appli_list[sIdx].id - 1));
-                        }} style={{ width: "100%", height: "65%" }}>
+                        }} style={{ width: "100%", height: "65%", cursor: "pointer" }}>
                             <Frame width="100%" height="100%" image={appli_list[sIdx].image} name={appli_list[sIdx].name} />
                         </section>
                         <section style={{ width: "100%", height: "25%", marginTop: "10%" }}>
@@ -63,7 +63,7 @@ const Application = React.memo(() => {
                         <section onClick={() => {
                             dispatch(modalActions.applicaionStateToggle());
                             dispatch(currentActions.changeApplicationState(appli_list[tIdx].id - 1));
-                        }} style={{ width: "100%", height: "65%" }}>
+                        }} style={{ width: "100%", height: "65%", cursor: "pointer" }}>
                             <Frame width="100%" height="100%" image={appli_list[tIdx].image} name={appli_list[tIdx].name} />
                         </section>
                         <section style={{ width: "100%", height: "25%", marginTop: "10%" }}>
