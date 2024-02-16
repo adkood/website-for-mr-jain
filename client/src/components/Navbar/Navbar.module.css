@@ -21,12 +21,31 @@ body {
     height: 100%;
 }
 
+@keyframes logoMover {
+    0%{
+        transform: translateX(-100px);
+    }
+    100%{
+        transform: translateX(0);
+    }
+}
+
 .nav__left {
     width: 10%;
     height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
+    animation: logoMover 1s;
+}
+
+@keyframes itemsMover {
+    0%{
+        transform: translateX(300px);
+    }
+    100%{
+        transform: translateX(0);
+    }
 }
 
 .nav__right {
@@ -36,6 +55,7 @@ body {
     justify-content: space-evenly;
     align-items: center;
     padding: 0.5%;
+    animation: itemsMover 1s;
 }
 
 .nav__option {
