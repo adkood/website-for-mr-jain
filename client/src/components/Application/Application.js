@@ -6,10 +6,12 @@ import { GiMoebiusStar } from "react-icons/gi";
 import { modalActions, currentActions } from '../../store';
 import { UseDispatch, useDispatch } from 'react-redux';
 import { useInView } from 'react-intersection-observer';
+import { TiChevronLeftOutline } from "react-icons/ti";
+import { TiChevronRightOutline } from "react-icons/ti";
 
 const Application = React.memo(() => {
 
-    const [ref,inView] = useInView({
+    const [ref, inView] = useInView({
         triggerOnce: true,
         threshold: 0.5
     })
@@ -31,6 +33,20 @@ const Application = React.memo(() => {
         return () => clearInterval(intervalId);
     }, []);
 
+    const onLeftMove = () => {
+        set_fIdx(prevIdx => ((prevIdx - 1) + appli_list.length) % appli_list.length);
+        set_sIdx(prevIdx => ((prevIdx - 1) + appli_list.length) % appli_list.length);
+        set_tIdx(prevIdx => ((prevIdx - 1) + appli_list.length) % appli_list.length);
+        set_foIdx(prevIdx => ((prevIdx - 1) + appli_list.length) % appli_list.length);
+    }
+
+    const onRightMove = () => {
+        set_fIdx(prevIdx => (prevIdx + 1) % appli_list.length);
+        set_sIdx(prevIdx => (prevIdx + 1) % appli_list.length);
+        set_tIdx(prevIdx => (prevIdx + 1) % appli_list.length);
+        set_foIdx(prevIdx => (prevIdx + 1) % appli_list.length);
+    }
+
     return (
         <div ref={ref} id='appli' className={styles.application}>
             <section className={`${styles.top} ${inView ? styles.inView : ''}`}>
@@ -42,6 +58,7 @@ const Application = React.memo(() => {
                 <span>Maximizing Potential: Innovative Applications of Copper Products at JDJ</span>
             </section>
             <section className={`${styles.slider_cont} ${inView ? styles.inView : ''}`}>
+                <TiChevronLeftOutline onClick={onLeftMove} className={styles.sliderCont__moveLeft} />
                 <section className={styles.sliderCont__inside}>
                     <section className={styles.sliderCont__inside__frameWala}>
                         <section onClick={() => {
@@ -88,6 +105,7 @@ const Application = React.memo(() => {
                         </section>
                     </section>
                 </section>
+                <TiChevronRightOutline onClick={onRightMove} className={styles.sliderCont__moveRight} />
             </section>
         </div>
     )

@@ -14,7 +14,7 @@ body {
     width: 100vw;
     height: 100vh;
     box-sizing: border-box;
-    background: url('../../../public/home.gif');
+    background: url('../../../public/b1.png');
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
@@ -52,14 +52,24 @@ body {
     animation: starBounce 1.5s;
 }
 
+@keyframes upSlide {
+    0% {
+        transform: translateY(400px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+
+}
 
 .content {
     width: 60%;
     position: relative;
     font-size: 250%;
     text-align: center;
-    color: whitesmoke;
+    color: white;
     letter-spacing: 5px;
+    animation: upSlide 1s;
 }
 
 
@@ -76,7 +86,7 @@ body {
         width: 60%;
         font-size: 230%;
         text-align: center;
-        color: whitesmoke;
+        /* color: whitesmoke; */
     }
 }
 

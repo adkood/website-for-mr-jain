@@ -9,16 +9,7 @@ export const tech_list = [{
             "Profiles for connectors"]
 },
 {
-    id: '2', image: 'https://i.ibb.co/fxFZd8t/insulation.png', name: "copper insulation", short: 'Constructed of copper that could also insulate or shield electric current.', advantage: ["Advanced technology and state of the art machines",
-        "Excellent corner radius and accurate sizes",
-        , "Air condition plant to control and avoid dust contamination",
-        , "Online quality control for better reliability"
-    ], prod_avail: [`Single, double and triple individual and overall insulated rectangular wire with Kraft paper, Thermally stabilized paper, Mica tape etc`,
-        "Sizes upto 400 S.mm max"], application: ["Oil filled transformer winding",
-            "Dry type transformer winding",
-            "Heavy duty motor / Generator"]
-}, {
-    id: '3', image: 'https://i.ibb.co/fDGtqnb/extrusion.png', name: "copper extrusion", short: 'Extrusion is a compressive forming manufacturing process that creates lengths of shaped cross-sections from metal billets.', advantage: ["Continuous production of soft annealed copper.",
+    id: '2', image: 'https://i.ibb.co/fDGtqnb/extrusion.png', name: "copper extrusion", short: 'Extrusion is a compressive forming manufacturing process that creates lengths of shaped cross-sections from metal billets.', advantage: ["Continuous production of soft annealed copper.",
         "Defect free production in continuous length",
         "High electrical conductivity",
         "Production of complex cross sectional geometry"], prod_avail: ["Bare copper strip", "Rectangular wire", "Copper profile"], application: ["Earthing Conductor",
@@ -26,7 +17,7 @@ export const tech_list = [{
             "Transformer winding wire",
             "Profiles for connectors"]
 }, {
-    id: '4', image: 'https://i.ibb.co/8xqq4Ld/drawing2.png', name: "copper drawing", short: 'This process allows artists to create intricate and detailed prints with fine lines and textures.', advantage: ["Suitable for fine wire drawing",
+    id: '3', image: 'https://i.ibb.co/8xqq4Ld/drawing2.png', name: "copper drawing", short: 'This process allows artists to create intricate and detailed prints with fine lines and textures.', advantage: ["Suitable for fine wire drawing",
         "High conductivity helps less metal usage",
         "Longer packing length suitable for welding",
         "Easy to stringing up in wire drawing machine"], prod_avail: ["Rod breakdown wire 1.8 mm to 3.5 mm",
