@@ -1,6 +1,7 @@
 import React from 'react';
 import styles from '../Modal/Modal.module.css';
 import { useDispatch } from 'react-redux';
+import { AiFillCloseSquare } from "react-icons/ai";
 
 const Modal = ({isOpen, closeModal, children }) => {
 
@@ -10,7 +11,7 @@ const Modal = ({isOpen, closeModal, children }) => {
             <div className={styles.modalContent}>
                 {children}
                 <span className={styles.closeButton} onClick={() => {dispatch(closeModal())}}>
-                    &times;
+                    <AiFillCloseSquare />
                 </span>
             </div>
         </div>

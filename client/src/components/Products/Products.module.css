@@ -61,7 +61,12 @@ body {
 .middle__inside__brief {
     height: 20%;
     width: 100%;
+    /* visibility: hidden; */
 }
+
+/* .middle__inside:hover .middle__inside__brief {
+    visibility: visible;
+} */
 
 .footer {
     width: 90%;
