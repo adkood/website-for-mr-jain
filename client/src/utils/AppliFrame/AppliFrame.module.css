@@ -30,7 +30,7 @@
     width: 90%;
     height: 40%;
     font-family: 'Julius Sans One', sans-serif;
-    letter-spacing: 3px;
+    letter-spacing: 2px;
     font-size: 150%;
     display: flex;
     justify-content: center;
@@ -55,7 +55,7 @@
     background-color: #955935;
     border-radius: 5px;
     font-family: 'Julius Sans One', sans-serif;
-    letter-spacing: 3px;
+    letter-spacing: 2px;
     font-size: 140%;
 }
 

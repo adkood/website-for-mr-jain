@@ -16,6 +16,7 @@ body {
     align-items: center;
     font-family: 'Julius Sans One', sans-serif;
     z-index: 2;
+    letter-spacing: 2px;
 }
 
 .logo {
@@ -80,7 +81,20 @@ body {
     padding: 3px;
 }
 
-@media (max-width: 1350px) {
+@media (max-width: 1700px) {
+    .nav__option {
+        border-radius: 5px;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #4F2F1C;
+        font-weight: bold;
+        font-size: 100%;
+    }
+}
+
+@media (max-width: 1470px) {
     .nav__option {
         border-radius: 5px;
         height: 100%;
@@ -93,7 +107,20 @@ body {
     }
 }
 
-@media (max-width: 1150px) {
+@media (max-width: 1350px) {
+    .nav__option {
+        border-radius: 5px;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #4F2F1C;
+        font-weight: bold;
+        font-size: 80%;
+    }
+}
+
+@media (max-width: 1200px) {
 
     .nav {
         height: auto;

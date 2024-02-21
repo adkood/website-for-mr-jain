@@ -14,7 +14,7 @@ const Frame = ({ name, image }) => {
                 padding: '5px',
                 borderRadius: '8px',
                 boxShadow: '1px 2px 5px #4F2F1C',
-                overflow: 'hidden', // Ensure the image doesn't overflow
+                overflow: 'hidden', 
             }}
         >
             <div
@@ -26,7 +26,7 @@ const Frame = ({ name, image }) => {
                 <img
                     style={{ width: '100%', height: '100%'}}
                     src={`${image}`}
-                    alt={name} // Set a meaningful alt text
+                    alt={name} 
                 />
             </div>
             <span
@@ -34,11 +34,10 @@ const Frame = ({ name, image }) => {
                     height: "10%",
                     color: '#955935',
                     fontWeight: 'bold',
-                    // border: "1px solid",
                     display: "flex",
                     alignItems: "center",
-                    // textAlign: "center",
                     fontFamily: `'Julius Sans One', sans-serif`,
+                    letterSpacing: "2px"
                 }}
             >
                 {name}

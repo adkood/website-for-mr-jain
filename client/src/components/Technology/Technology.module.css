@@ -21,7 +21,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    letter-spacing: 5px;
+    letter-spacing: 2px;
 }
 
 .top>* {
@@ -86,7 +86,7 @@ body {
     text-align: center;
     flex-direction: column;
     align-items: center;
-    letter-spacing: 5px;
+    letter-spacing: 2px;
     padding: 2%;
     opacity: 0;
 }
@@ -124,7 +124,7 @@ body {
     font-size: 130%;
     display: flex;
     text-align: center;
-    letter-spacing: 5px;
+    letter-spacing: 2px;
     opacity: 0;
     transform: translateY(500px);
     transition: opacity 1s ease-in-out, transform 1s ease-in-out;
