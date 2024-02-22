@@ -1,7 +1,7 @@
 .ContactUs {
     width: 100vw;
     height: 100vh;
-    background-image: url("../../../public/envelopes.jpg");
+    background-image: url("../../../public/contact.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     box-sizing: border-box;
@@ -36,7 +36,7 @@
     align-items: center;
     flex-direction: column;
     border: 1px solid white;
-    background-color: whitesmoke;
+    background-color: rgb(238, 236, 236);
     border-radius: 10px;
 }
 
