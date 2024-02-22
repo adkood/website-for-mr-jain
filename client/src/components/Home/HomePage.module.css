@@ -19,11 +19,11 @@ body {
     align-items: center;
     position: absolute;
     z-index: 1;
-    background-image: url("../../../public/bb3.png");
+    background-image: url("../../../public/homie.webp");
     /* background-image: url("https://www.aurubis.com/.imaging/resizer/640/400/50-50/dam/jcr:f6457253-4502-48b0-9d9f-66f5891cb1da/181008_131.jpg?imageFormat=webp"); */
     background-size: cover;
     background-repeat: no-repeat;
-    filter: blur(3px);
+    /* filter: blur(3px); */
     /* filter: saturate(0.8); */
 }
 
