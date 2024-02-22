@@ -3,6 +3,7 @@ body {
 }
 
 .prod {
+    position: relative;
     width: 100vw;
     height: 100vh;
     background-color: #955935;
@@ -11,6 +12,7 @@ body {
     justify-content: center;
     align-items: center;
     overflow: hidden;
+    z-index: 5;
 }
 
 .header {

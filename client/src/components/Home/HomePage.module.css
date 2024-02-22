@@ -14,13 +14,16 @@ body {
     width: 100vw;
     height: 100vh;
     box-sizing: border-box;
-    background: url('../../../public/b1.png');
-    background-repeat: no-repeat;
-    background-size: cover;
     display: flex;
     justify-content: center;
     align-items: center;
+    position: absolute;
     z-index: 1;
+    background-image: url("../../../public/b1.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter: blur(5px);
+    /* filter: saturate(0.8); */
 }
 
 @keyframes starBounce {
@@ -45,31 +48,35 @@ body {
 }
 
 .star {
-    position: relative;
     top: 22%;
     left: 50%;
     transform: translate(-50%, -50%);
     animation: starBounce 1.5s;
+    z-index: 2; 
 }
 
 @keyframes upSlide {
     0% {
-        transform: translateY(400px);
+        transform: translate(-50%, -50%) translateY(400px);
     }
     100% {
-        transform: translateY(0);
+        transform: translate(-50%, -50%) translateY(0);
     }
-
 }
 
 .content {
-    width: 60%;
-    position: relative;
+    top: 65%;
+    left: 50%;
+    color: rgb(238, 236, 236);
+    width: 70%;
+    transform: translate(-50%,-50%);
+    height: 30%;
     font-size: 250%;
     text-align: center;
-    color: white;
     letter-spacing: 2px;
+    font-weight: bold;
     animation: upSlide 1s;
+    z-index: 2;
 }
 
 
@@ -86,7 +93,6 @@ body {
         width: 60%;
         font-size: 230%;
         text-align: center;
-        /* color: whitesmoke; */
     }
 }
 
@@ -103,7 +109,7 @@ body {
         width: 60%;
         font-size: 120%;
         text-align: center;
-        color: whitesmoke;
+        /* color: rgb(238, 236, 236); */
     }
 }
 
@@ -120,7 +126,7 @@ body {
         width: 60%;
         font-size: 200%;
         text-align: center;
-        color: whitesmoke;
+        /* color: whitesmoke; */
     }
 }
 
@@ -137,7 +143,7 @@ body {
         width: 80%;
         font-size: 140%;
         text-align: center;
-        color: whitesmoke;
+        /* color: whitesmoke; */
     }
 }
 
@@ -154,7 +160,7 @@ body {
         width: 70%;
         font-size: 130%;
         text-align: center;
-        color: whitesmoke;
+        /* color: whitesmoke; */
     }
 }
 
@@ -171,6 +177,6 @@ body {
         width: 70%;
         font-size: 100%;
         text-align: center;
-        color: whitesmoke;
+        /* color: whitesmoke; */
     }
 }
