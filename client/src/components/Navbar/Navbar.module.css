@@ -10,12 +10,11 @@ body {
     position: fixed;
     top: 0;
     background-color: rgb(238, 236, 236);
-    /* background-color: #f0e0b4; */
     display: flex;
     justify-content: space-between;
     align-items: center;
     font-family: 'Julius Sans One', sans-serif;
-    z-index: 2;
+    z-index: 4;
     letter-spacing: 2px;
 }
 
