@@ -22,7 +22,7 @@ body {
     background-image: url("https://www.aurubis.com/.imaging/resizer/640/400/50-50/dam/jcr:f6457253-4502-48b0-9d9f-66f5891cb1da/181008_131.jpg?imageFormat=webp");
     background-size: cover;
     background-repeat: no-repeat;
-    filter: blur(5px);
+    filter: blur(4px);
     /* filter: saturate(0.8); */
 }
 
@@ -67,7 +67,8 @@ body {
 .content {
     top: 65%;
     left: 50%;
-    color: rgb(238, 236, 236);
+    /* color: rgb(238, 236, 236); */
+    color: white;
     width: 70%;
     transform: translate(-50%,-50%);
     height: 30%;
