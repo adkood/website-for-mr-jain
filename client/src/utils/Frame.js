@@ -14,7 +14,8 @@ const Frame = ({ name, image }) => {
                 padding: '5px',
                 borderRadius: '8px',
                 boxShadow: '1px 2px 5px #4F2F1C',
-                overflow: 'hidden', 
+                overflow: 'hidden',
+                fontFamily: "Public Sans, sans-serif",
             }}
         >
             <div
@@ -24,9 +25,9 @@ const Frame = ({ name, image }) => {
                 }}
             >
                 <img
-                    style={{ width: '100%', height: '100%'}}
+                    style={{ width: '100%', height: '100%' }}
                     src={`${image}`}
-                    alt={name} 
+                    alt={name}
                 />
             </div>
             <span

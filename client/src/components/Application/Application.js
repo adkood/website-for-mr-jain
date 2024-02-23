@@ -51,7 +51,7 @@ const Application = React.memo(() => {
         <div ref={ref} id='appli' className={styles.application}>
             <section className={`${styles.top} ${inView ? styles.inView : ''}`}>
                 <GiMoebiusStar size={"1rem"} />
-                <span>Application</span>
+                <span>APPLICATIONS</span>
                 <GiMoebiusStar size={"1rem"} />
             </section>
             <section className={`${styles.middle} ${inView ? styles.inView : ''}`}>

@@ -18,7 +18,6 @@ body {
     align-items: center;
     position: absolute;
     z-index: 1;
-    background-image: url("../../../public/homie.webp");
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -62,14 +61,18 @@ body {
 }
 
 .content {
-    top: 65%;
+    top: 75%;
     left: 50%;
-    color: rgb(238, 236, 236);
+    color: #F0E0B4;
+    border-radius: 10px 10px;
+    background-color: #955a35aa;
     width: 70%;
     transform: translate(-50%,-50%);
-    height: 30%;
+    height: 60%;
     font-size: 270%;
+    padding-top: 20px;
     text-align: center;
+    font-family: "Public Sans", sans-serif;
     letter-spacing: 2px;
     animation: upSlide 1s;
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);

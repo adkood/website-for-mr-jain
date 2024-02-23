@@ -44,7 +44,7 @@ const Technology = React.memo(() => {
         <div ref={ref} id="tech" className={styles.techno}>
             <div className={styles.top}>
                 <GiMoebiusStar size={"1rem"} />
-                <span>Technology</span>
+                <span>TECHNOLOGY</span>
                 <GiMoebiusStar size={"1rem"} />
             </div>
             <div id="slider-cont" className={styles.sliderCont}>

@@ -18,7 +18,7 @@ const ContactUs = React.memo(() => {
         <div id='contact-us' className={styles.ContactUs}>
             <section className={styles.top}>
                 <GiMoebiusStar size={"1rem"} />
-                <span>Contact Us</span>
+                <span>CONTACT US</span>
                 <GiMoebiusStar size={"1rem"} />
             </section>
             <section className={styles.middle}>

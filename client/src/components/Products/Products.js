@@ -21,7 +21,7 @@ const Products = React.memo(() => {
     return <div ref={ref} id='prod' className={styles.prod}>
         <section className={`${styles.header} ${inView ? styles.inView : ''}`}>
             <GiMoebiusStar size={"1rem"} />
-            <span> our products</span>
+            <span>OUR PRODUCTS</span>
             <GiMoebiusStar size={"1rem"} />
         </section>
         <section className={`${styles.footer} ${inView ? styles.inView : ''}`}>
