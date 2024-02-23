@@ -121,7 +121,7 @@
     .bottom {
         width: 80%;
         height: 50%;
-        font-size: 125%;
+        font-size: 120%;
     }
 }
 
@@ -135,5 +135,18 @@
         margin-bottom: 20%;
         width: 90%;
         font-size: 105%;
+    }
+}
+
+@media (max-width: 400px)
+{
+    .top {
+        font-size: 170%;
+    }
+
+    .bottom {
+        margin-bottom: 20%;
+        width: 90%;
+        font-size: 85%;
     }
 }

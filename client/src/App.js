@@ -38,9 +38,9 @@ function App() {
           <Route path='/application' element={<Application />} />
           <Route path='/about-us' element={<AboutUs />} />
         </Routes> */}
-      <Modal isOpen={isProductModalOpen} closeModal={modalActions.productStateToggle}>
+      {/* <Modal isOpen={isProductModalOpen} closeModal={modalActions.productStateToggle}>
         <ProductFrame />
-      </Modal>
+      </Modal> */}
       <Modal isOpen={isTechModalOpen} closeModal={modalActions.techStateToggle}>
         <TechFrame />
       </Modal>

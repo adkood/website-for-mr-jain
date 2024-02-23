@@ -103,6 +103,7 @@ body {
 }
 
 .sliderCont__middle {
+    cursor: pointer;
     width: 49%;
     height: 100%;
     display: flex;
@@ -232,7 +233,7 @@ body {
         display: none;
     }
 
-    .sliderCont__moveRight { 
+    .sliderCont__moveRight {
         margin-left: 0px;
     }
 }
@@ -268,7 +269,7 @@ body {
         display: none;
     }
 
-    .sliderCont__moveRight { 
+    .sliderCont__moveRight {
         margin-left: 0px;
     }
 }
@@ -307,7 +308,7 @@ body {
         display: none;
     }
 
-    .sliderCont__moveRight { 
+    .sliderCont__moveRight {
         margin-left: 0px;
     }
 }
