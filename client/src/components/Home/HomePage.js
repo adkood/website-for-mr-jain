@@ -18,7 +18,7 @@ const HomePage = React.memo(() => {
 
     const contStyle = {
         backgroundImage: `url(${home_list[img].image})`,
-        transition: 'background-image 0.5s ease-in-out',
+        transition: 'background-image 1s ease-in-out',
     };
 
     return (

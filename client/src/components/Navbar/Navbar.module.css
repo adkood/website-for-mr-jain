@@ -19,7 +19,7 @@ body {
 }
 
 .logo {
-    height: 140%;
+    height: 100%;
 }
 
 @keyframes logoMover {
@@ -160,7 +160,7 @@ body {
     }
 
     .logo {
-        height: 140%;
+        width: 50%;
     }
 
     .nav__left {
@@ -174,7 +174,7 @@ body {
     }
 
     .logo {
-        height: 140%;
+        width: 50%;
     }
 
     .nav__left {
@@ -188,7 +188,7 @@ body {
     }
 
     .logo {
-        height: 140%;
+        width: 50%;
     }
 
     .nav__left {
