@@ -29,7 +29,6 @@
 .main__left__bottom {
     width: 90%;
     height: 40%;
-    font-family: 'Julius Sans One', sans-serif;
     letter-spacing: 2px;
     font-size: 150%;
     display: flex;
@@ -54,7 +53,6 @@
     color: #f0e8d3;
     background-color: #955935;
     border-radius: 5px;
-    font-family: 'Julius Sans One', sans-serif;
     letter-spacing: 2px;
     font-size: 140%;
 }
@@ -66,7 +64,6 @@
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
-    font-family: 'Julius Sans One', sans-serif;
     letter-spacing: 2px;
     font-size: 110%;
     text-align: left
@@ -79,7 +76,6 @@
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
-    font-family: 'Julius Sans One', sans-serif;
     letter-spacing: 2px;
     font-size: 90%;
 }

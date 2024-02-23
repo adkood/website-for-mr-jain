@@ -6,7 +6,6 @@ body {
 .home {
     width: 100vw;
     height: 100vh;
-    font-family: 'Julius Sans One', sans-serif;
     overflow: hidden;
 }
 
@@ -20,11 +19,8 @@ body {
     position: absolute;
     z-index: 1;
     background-image: url("../../../public/homie.webp");
-    /* background-image: url("https://www.aurubis.com/.imaging/resizer/640/400/50-50/dam/jcr:f6457253-4502-48b0-9d9f-66f5891cb1da/181008_131.jpg?imageFormat=webp"); */
     background-size: cover;
     background-repeat: no-repeat;
-    /* filter: blur(3px); */
-    /* filter: saturate(0.8); */
 }
 
 @keyframes starBounce {
@@ -68,15 +64,13 @@ body {
 .content {
     top: 65%;
     left: 50%;
-    /* color: rgb(238, 236, 236); */
     color: rgb(238, 236, 236);
     width: 70%;
     transform: translate(-50%,-50%);
     height: 30%;
-    font-size: 250%;
+    font-size: 270%;
     text-align: center;
     letter-spacing: 2px;
-    font-weight: bold;
     animation: upSlide 1s;
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
     z-index: 2;

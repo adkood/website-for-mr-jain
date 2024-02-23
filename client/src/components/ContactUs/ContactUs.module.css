@@ -15,7 +15,6 @@
     margin-top: 3%;
     width: 100%;
     height: 5%;
-    font-family: 'Julius Sans One', sans-serif;
     color: #4F2F1C;
     font-size: 230%;
     display: flex;
@@ -61,7 +60,6 @@
 .middle__item__right {
     width: 45%;
     height: 90%;
-    font-family: 'Julius Sans One', sans-serif;
     color: #4F2F1C;
     font-size: 140%;
     font-weight: bolder;
@@ -75,7 +73,6 @@
 .middle__item__copy {
     width: 20%;
     height: 90%;
-    font-family: 'Julius Sans One', sans-serif;
     color: #716e6d;
     font-size: 2rem;
     font-weight: bolder;

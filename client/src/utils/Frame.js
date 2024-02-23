@@ -36,7 +36,6 @@ const Frame = ({ name, image }) => {
                     fontWeight: 'bold',
                     display: "flex",
                     alignItems: "center",
-                    fontFamily: `'Julius Sans One', sans-serif`,
                     letterSpacing: "2px"
                 }}
             >
