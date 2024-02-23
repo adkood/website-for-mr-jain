@@ -63,7 +63,7 @@
     height: 90%;
     color: #4F2F1C;
     font-size: 140%;
-    font-weight: bolder;
+    /* font-weight: bolder; */
     display: flex;
     /* justify-content: center; */
     align-items: center;
@@ -76,7 +76,7 @@
     height: 90%;
     color: #716e6d;
     font-size: 2rem;
-    font-weight: bolder;
+    /* font-weight: bolder; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -90,7 +90,7 @@
 @media (max-width: 1500px)
 {
     .top {
-        font-size: 210%;
+        font-size: 200%;
         margin-top: 3%;
     }
 
@@ -113,7 +113,7 @@
 @media (max-width: 900px)
 {
     .top {
-        font-size: 190%;
+        font-size: 175%;
         margin-top: 10%;
     }
 

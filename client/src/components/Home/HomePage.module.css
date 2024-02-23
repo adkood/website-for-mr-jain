@@ -70,7 +70,7 @@ body {
     transform: translate(-50%,-50%);
     height: 60%;
     font-size: 270%;
-    padding-top: 20px;
+    padding: 10px;
     text-align: center;
     font-family: "Public Sans", sans-serif;
     letter-spacing: 2px;

@@ -67,7 +67,7 @@
     background-color: #955935;
     border-radius: 5px;
     letter-spacing: 2px;
-    font-size: 140%;
+    font-size: 150%;
 }
 
 .main__right__top {
@@ -78,7 +78,7 @@
     justify-content: space-evenly;
     align-items: center;
     letter-spacing: 2px;
-    font-size: 80%;
+    font-size: 100%;
 }
 
 .main__right__middle {
@@ -89,7 +89,7 @@
     justify-content: space-evenly;
     align-items: center;
     letter-spacing: 2px;
-    font-size: 80%;
+    font-size: 100%;
 }
 
 .main__right__bottom {
@@ -100,38 +100,38 @@
     justify-content: space-evenly;
     align-items: center;
     letter-spacing: 2px;
-    font-size: 80%;
+    font-size: 100%;
 }
 
 @media (max-height: 800px) {
     .main__left__middle {
-        font-size: 125%;
+        font-size: 135%;
     }
 
     .main__left__bottom {
-        font-size: 115%;
+        font-size: 125%;
     }
 
     .main__right__heading {
-        font-size: 130%;
+        font-size: 140%;
     }
 
     .main__right__top,
     .main__right__middle,
     .main__right__bottom {
-        font-size: 65%;
+        font-size: 100%;
     }
 }
 
 @media (max-width: 1300px) {
     .main__right__heading {
-        font-size: 130%;
+        font-size: 140%;
     }
 
     .main__right__top,
     .main__right__middle,
     .main__right__bottom {
-        font-size: 70%;
+        font-size: 100%;
     }
 }
 
@@ -143,12 +143,12 @@
 
     .main__left__middle {
         width: 99%;
-        font-size: 120%;
+        font-size: 130%;
     }
 
     .main__left__bottom {
         width: 99%;
-        font-size: 110%;
+        font-size: 125%;
     }
 }
 
@@ -172,13 +172,13 @@
     .main__left__middle {
         width: 99%;
         height: 5%;
-        font-size: 110%;
+        font-size: 125%;
     }
 
     .main__left__bottom {
         width: 99%;
         height: 30%;
-        font-size: 100%;
+        font-size: 120%;
     }
 
     .main__right {
@@ -221,13 +221,13 @@
     .main__left__middle {
         width: 99%;
         height: 5%;
-        font-size: 100%;
+        font-size: 110%;
     }
 
     .main__left__bottom {
         width: 99%;
         height: 30%;
-        font-size: 90%;
+        font-size: 110%;
     }
 
     .main__right {
@@ -241,12 +241,12 @@
 
     .main__right__middle {
         height: 50%;
-        font-size: 70%;
+        font-size: 90%;
     }
 
     .main__right__bottom {
         height: 50%;
-        font-size: 70%;
+        font-size: 90%;
     }
    
 }
@@ -272,13 +272,13 @@
     .main__left__middle {
         width: 99%;
         height: 5%;
-        font-size: 80%;
+        font-size: 100%;
     }
 
     .main__left__bottom {
         width: 99%;
         height: 30%;
-        font-size: 70%;
+        font-size: 90%;
     }
 
     .main__right {
@@ -292,12 +292,12 @@
 
     .main__right__middle {
         height: 60%;
-        font-size: 50%;
+        font-size: 90%;
     }
 
     .main__right__bottom {
         height: 50%;
-        font-size: 60%;
+        font-size: 90%;
     }
    
 }

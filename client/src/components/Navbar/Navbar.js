@@ -20,7 +20,7 @@ const Navbar = React.memo(() => {
     return (
         <div className={style.nav}>
             <section onClick={() => { scrollToTop() }} className={style.nav__left}>
-                {/* <img className={style.logo} src={'logo.png'} alt='logo' /> */}
+                <img className={style.logo} src={'logo.png'} alt='logo' />
             </section>
             <section className={style.nav__right}>
                 <section onClick={() => { scrollTo('about-us') }} className={style.nav__option}>
