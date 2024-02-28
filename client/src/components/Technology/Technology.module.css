@@ -14,6 +14,7 @@ body {
 }
 
 .top {
+    visibility: hidden;
     width: 100%;
     height: 10%;
     color: #F0E0B4;
