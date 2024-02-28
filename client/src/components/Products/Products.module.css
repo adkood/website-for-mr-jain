@@ -64,10 +64,6 @@ body {
     width: 100%;
 }
 
-.middle__inside__image:hover + .middle__inside__brief {
-    visibility: visible;
-}
-
 .footer {
     width: 90%;
     height: 15%;
