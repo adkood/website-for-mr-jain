@@ -65,7 +65,7 @@ body {
     left: 50%;
     color: #F0E0B4;
     border-radius: 10px 10px;
-    background-color: #955a35aa;
+    background: linear-gradient(to bottom, #5c351e, transparent);    
     width: 70%;
     transform: translate(-50%,-50%);
     height: 60%;

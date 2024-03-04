@@ -7,12 +7,8 @@ import AppliFrame from './utils/AppliFrame/AppliFrame';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
 const Navbar = lazy(() => import('./components/Navbar/Navbar'));
-const HomePage = lazy(() => import('./components/Home/HomePage'));
-const Products = lazy(() => import('./components/Products/Products'));
-const Technology = lazy(() => import('./components/Technology/Technology'));
-const Application = lazy(() => import('./components/Application/Application'));
-const AboutUs = lazy(() => import('./components/AboutUs/AboutUs'));
-const ContactUs = lazy(() => import('./components/ContactUs/ContactUs'));
+const TechPage = lazy(() => import('./components/TechPage'));
+const ApplicationPage = lazy(() => import('./components/ApplicationPage'));
 const Main = lazy(() => import('./components/Main'));
 
 function App() {
@@ -26,8 +22,8 @@ function App() {
         <Navbar />
         <Routes>
           <Route path='/' element={<Main />} />
-          <Route path='/technology' element={<Technology />} />
-          <Route path='/application' element={<Application />} />
+          <Route path='/technology' element={<TechPage />} />
+          <Route path='/application' element={<ApplicationPage />} />
         </Routes>
         <Modal isOpen={isTechModalOpen} closeModal={modalActions.techStateToggle}>
           <TechFrame />

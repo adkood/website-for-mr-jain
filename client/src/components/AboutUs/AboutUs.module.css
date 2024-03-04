@@ -30,7 +30,7 @@
 .bottom {
     padding: 10px;
     border-radius: 10px;
-    background-color: rgba(245, 245, 245, 0.823);
+    background: linear-gradient(to bottom, white , transparent);    
     width: 70%;
     height: 50%;
     line-height: 1.3;

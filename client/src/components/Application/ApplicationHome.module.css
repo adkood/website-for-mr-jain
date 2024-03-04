@@ -1,0 +1,156 @@
+.cont {
+    width: 100vw;
+    height: 100vh;
+    background-image: url('../../../public/appliHome.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Public Sans", sans-serif;
+    color: #F0E0B4;
+}
+
+.cont__inside {
+    padding: 10px;
+    margin-top: 8%;
+    width: 70%;
+    height: 70%;
+    /* background: linear-gradient(to bottom, #4F2F1C, transparent);     */
+    background-color: #4f2f1ccf;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.cont__inside__header {
+    width: 100%;
+    height: 15%;
+    font-size: 180%;
+    text-align: center;
+}
+
+.cont__inside__body {
+    width: 100%;
+    height: 45%;
+    color: whitesmoke;
+    font-size: 160%;
+    text-align: center;
+}
+
+.cont__inside__icon {
+    width: 100%;
+    height: 10%;
+    font-size: 150%;
+    text-align: center;
+    font-size: 500%;
+}
+
+@media (max-width: 1200px) {
+    .cont__inside {
+        margin-top: 15%;
+    }
+    
+    .cont__inside__header {
+        font-size: 160%;
+    }
+    
+    .cont__inside__body {
+        font-size: 140%;
+
+    }
+    
+    .cont__inside__icon {
+        font-size: 450%;
+    }
+}
+
+@media (max-width: 1100px) {    
+    .cont__inside__header {
+        font-size: 150%;
+    }
+    
+    .cont__inside__body {
+        font-size: 140%;
+
+    }
+    
+    .cont__inside__icon {
+        font-size: 400%;
+    }
+}
+
+@media (max-width: 900px) {
+    .cont__inside {
+        margin-top: 18%;
+    }
+    
+    .cont__inside__header {
+        font-size: 150%;
+    }
+    
+    .cont__inside__body {
+        font-size: 130%;
+
+    }
+    
+    .cont__inside__icon {
+        font-size: 300%;
+    }
+}
+
+@media (max-width: 800px) {
+    .cont__inside {
+        margin-top: 20%;
+    }
+    
+    .cont__inside__header {
+        font-size: 130%;
+        height: 10%;
+    }
+    
+    .cont__inside__body {
+        font-size: 130%;
+        height: 55%;
+    }
+}
+
+@media (max-width: 700px) {
+    .cont__inside {
+        margin-top: 22%;
+    }
+    
+    .cont__inside__header {
+        font-size: 130%;
+        height: 15%;
+    }
+    
+    .cont__inside__body {
+        font-size: 120%;
+        height: 55%;
+    }
+}
+
+@media (max-width: 600px) {
+    .cont__inside {
+        margin-top: 25%;
+    }
+    
+    .cont__inside__header {
+        font-size: 120%;
+        height: 15%;
+    }
+    
+    .cont__inside__body {
+        font-size: 110%;
+        height: 55%;
+    }
+}
+
+@media (max-width: 500px) {
+    .cont__inside {
+        margin-top: 30%;
+    }
+}
